@@ -1,0 +1,25 @@
+name: BPO News Crawler
+
+on:
+  schedule:
+    # 깃허브 서버는 영국 표준시(UTC) 기준이므로, 00:00 UTC로 설정하면 한국 시간(KST) 아침 9시 정각이 됩니다.
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 원할 때 깃허브에서 버튼을 눌러 수동으로 '강제 실행' 할 수 있는 기능입니다.
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 저장소 코드 가져오기
+        uses: actions/checkout@v3
+
+      - name: 파이썬 환경 설정
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: 라이브러리 설치
+        run: pip install -r requirements.txt
+
+      - name: 뉴스 수집 파이썬 코드 실행
+        run: python main.py
