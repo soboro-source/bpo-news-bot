@@ -104,14 +104,11 @@
                 const fallbackImg = `https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=500&auto=format&fit=crop&q=60`;
                 const imgSrc = news.image && news.image.trim() !== "" ? news.image : fallbackImg;
                 
-               const emojiMap = { "1. 자사 관련": "🏢", "2. 경쟁사 동향": "🔥", "3. 고객사 동향": "🤝", "4. 관련 법 소식": "⚖️", "5. 지원 정책": "💡", "6. 기타 소식": "📰" };
-const bgMap = { "1. 자사 관련": "bg-[#e8def8]", "2. 경쟁사 동향": "bg-[#ffe2dd]", "3. 고객사 동향": "bg-[#d3e5ef]", "4. 관련 법 소식": "bg-[#fadec9]", "5. 지원 정책": "bg-[#dbeddb]", "6. 기타 소식": "bg-[#e3e2e0]" };
+              const gradMap = { "1. 자사 관련": "from-purple-300 to-purple-400", "2. 경쟁사 동향": "from-red-300 to-red-400", "3. 고객사 동향": "from-blue-300 to-blue-400", "4. 관련 법 소식": "from-orange-300 to-orange-400", "5. 지원 정책": "from-green-300 to-green-400", "6. 기타 소식": "from-gray-300 to-gray-400" };
 
 const card = `
     <a href="${news.link}" target="_blank" class="notion-card group">
-        <div class="w-full h-32 flex items-center justify-center text-5xl ${bgMap[news.category] || 'bg-gray-100'}">
-            ${emojiMap[news.category] || "📰"}
-        </div>
+        <div class="w-full h-12 bg-gradient-to-r ${gradMap[news.category] || 'from-gray-200 to-gray-300'} opacity-80 group-hover:opacity-100 transition-opacity"></div>
         <div class="p-4 flex flex-col flex-grow">
             <h2 class="text-[15px] font-semibold mb-3 leading-snug line-clamp-2 group-hover:text-blue-600">${news.title}</h2>
             <div class="mt-auto space-y-2">
