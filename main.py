@@ -24,23 +24,39 @@ def get_og_image(url):
         html = res.text
         current_url = res.url
 
+        # 구글 리다이렉트 페이지에 갇힌 경우 (추적 로직 복구)
         if "news.google.com" in current_url or "consent.google.com" in current_url:
-            match = re.search(r'(?:data-n-v|URL)=["\'](http[^"\']+)["\']', html, re.IGNORECASE)
-            if match:
-                real_url = match.group(1)
+            soup = BeautifulSoup(html, 'html.parser')
+            real_url = None
+            
+            # 1. <a> 태그에서 실제 주소 찾기
+            a_tag = soup.find('a')
+            if a_tag and a_tag.get('href') and a_tag.get('href').startswith('http'):
+                real_url = a_tag['href']
+            
+            # 2. 스크립트 데이터에서 실제 주소 찾기
+            if not real_url:
+                match = re.search(r'(?:data-n-v|URL)=["\'](http[^"\']+)["\']', html, re.IGNORECASE)
+                if match:
+                    real_url = match.group(1)
+                    
+            if real_url:
                 res = requests.get(real_url, headers=headers, timeout=10, allow_redirects=True)
                 html = res.text
                 current_url = res.url
 
+        # 여전히 구글 도메인이면 썸네일 수집 포기
         if "google.com" in current_url:
             return ""
 
+        # 언론사 원문 페이지에서 썸네일 추출
         soup = BeautifulSoup(html, 'html.parser')
         og_tag = soup.find('meta', property=re.compile(r'^og:image', re.I)) or soup.find('meta', attrs={'name': re.compile(r'^og:image', re.I)})
         
         if og_tag and og_tag.get('content'):
             img_url = og_tag['content'].strip()
             
+            # 구글 로고 등 차단
             if "gstatic.com" in img_url or "google.com" in img_url or "googleusercontent.com" in img_url:
                 return ""
                 
@@ -107,12 +123,12 @@ def news_bot():
                 existing_news = json.load(f)
             except Exception:
                 pass
-    
-    # ★ 자동 정화 로직: 기존 파일에 'googleusercontent' 주소가 있으면 스스로 버리고 다시 긁어옵니다.
+                
+    # 빈칸("") 이미지나 구글 로고 이미지를 가진 기존 데이터 삭제 처리
     cleaned_existing_news = []
     for item in existing_news:
         img = item.get("image", "")
-        if "googleusercontent.com" in img or "google.com" in img or "gstatic.com" in img:
+        if img == "" or "googleusercontent.com" in img or "google.com" in img or "gstatic.com" in img:
             continue
         cleaned_existing_news.append(item)
         
