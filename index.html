@@ -104,18 +104,13 @@
                 const fallbackImg = `https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=500&auto=format&fit=crop&q=60`;
                 const imgSrc = news.image && news.image.trim() !== "" ? news.image : fallbackImg;
                 
-              const gradMap = { "1. 자사 관련": "from-purple-300 to-purple-400", "2. 경쟁사 동향": "from-red-300 to-red-400", "3. 고객사 동향": "from-blue-300 to-blue-400", "4. 관련 법 소식": "from-orange-300 to-orange-400", "5. 지원 정책": "from-green-300 to-green-400", "6. 기타 소식": "from-gray-300 to-gray-400" };
-
-const card = `
-    <a href="${news.link}" target="_blank" class="notion-card group">
-        <div class="w-full h-12 bg-gradient-to-r ${gradMap[news.category] || 'from-gray-200 to-gray-300'} opacity-80 group-hover:opacity-100 transition-opacity"></div>
-        <div class="p-4 flex flex-col flex-grow">
-            <h2 class="text-[15px] font-semibold mb-3 leading-snug line-clamp-2 group-hover:text-blue-600">${news.title}</h2>
-            <div class="mt-auto space-y-2">
-                <div><span class="notion-tag ${colorClass}">${news.category}</span></div>
-                <div class="text-[12px] text-gray-400">수집일: ${news.date}</div>
-            </div>
+              const card = `
+    <a href="${news.link}" target="_blank" class="flex flex-col sm:flex-row sm:items-center justify-between p-4 border-b border-gray-100 hover:bg-gray-50 transition-colors group">
+        <div class="flex items-center gap-3 mb-2 sm:mb-0">
+            <span class="notion-tag ${colorClass} shrink-0">${news.category}</span>
+            <h2 class="text-[15px] font-semibold text-gray-800 group-hover:text-blue-600">${news.title}</h2>
         </div>
+        <div class="text-[13px] text-gray-400 whitespace-nowrap shrink-0">${news.date}</div>
     </a>
 `;
                 container.innerHTML += card;
