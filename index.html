@@ -11,43 +11,43 @@
             background-color: #ffffff;
             color: #37352f;
         }
-        .notion-card {
-            border: 1px solid rgba(55, 53, 47, 0.16);
-            border-radius: 6px;
-            box-shadow: rgba(15, 15, 15, 0.05) 0px 0px 0px 1px, rgba(15, 15, 15, 0.1) 0px 2px 4px;
-            transition: background-color 100ms ease-in 0s, transform 100ms ease-in 0s;
-            display: flex;
-            flex-direction: column;
-            overflow: hidden;
-            height: 100%;
-        }
-        .notion-card:hover {
-            background-color: rgba(55, 53, 47, 0.03);
-            transform: translateY(-2px);
-        }
         .notion-tag {
-            padding: 2px 6px;
-            border-radius: 3px;
-            font-size: 13px;
-            line-height: 120%;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
             display: inline-flex;
             align-items: center;
-        }
-        .line-clamp-2 {
-            display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+            justify-content: center;
         }
     </style>
 </head>
 <body class="antialiased">
-    <header class="max-w-6xl mx-auto px-6 sm:px-12 py-12">
+    <header class="max-w-5xl mx-auto px-6 sm:px-8 py-12">
         <div class="text-4xl mb-3">📰</div>
         <h1 class="text-3xl font-bold tracking-tight mb-2 text-gray-900">BPO 일일 뉴스 대시보드</h1>
         <p class="text-gray-500 text-sm">매일 아침 9시, 컨택센터 및 BPO 관련 주요 뉴스가 자동 업데이트 됩니다.</p>
     </header>
 
-    <main class="max-w-6xl mx-auto px-6 sm:px-12 pb-20">
+    <main class="max-w-5xl mx-auto px-6 sm:px-8 pb-20">
+        <!-- 카테고리 필터 -->
         <div class="mb-6 flex flex-wrap gap-2 text-sm" id="category-filter"></div>
-        <div id="news-container" class="flex flex-col"></div>
+        
+        <!-- 게시판(리스트) 영역 -->
+        <div class="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
+            
+            <!-- 테이블 머리글 (PC에서만 표출, 모바일은 자동 숨김) -->
+            <div class="hidden sm:flex items-center justify-between p-3.5 border-b-2 border-gray-100 bg-gray-50 text-[14px] font-bold text-gray-600">
+                <div class="flex items-center w-full">
+                    <div class="w-32 shrink-0 text-center">구분</div>
+                    <div class="flex-grow pl-4">제목</div>
+                </div>
+                <div class="w-24 shrink-0 text-center">수집일</div>
+            </div>
+            
+            <!-- 실제 뉴스 리스트 컨테이너 -->
+            <div id="news-container" class="flex flex-col"></div>
+        </div>
     </main>
 
     <script>
@@ -69,7 +69,7 @@
                 renderNews(allNews);
             })
             .catch(error => {
-                document.getElementById('news-container').innerHTML = '<p class="text-gray-500">뉴스를 불러오는 중입니다...</p>';
+                document.getElementById('news-container').innerHTML = '<div class="p-8 text-center text-gray-500">뉴스를 불러오는 중입니다...</div>';
             });
 
         function renderCategories() {
@@ -97,22 +97,32 @@
             const container = document.getElementById('news-container');
             container.innerHTML = '';
             
+            if (newsArray.length === 0) {
+                container.innerHTML = '<div class="p-8 text-center text-gray-500">해당 카테고리의 수집된 뉴스가 없습니다.</div>';
+                return;
+            }
+
             newsArray.forEach(news => {
                 const colorClass = categoryColors[news.category] || "bg-[#e3e2e0] text-[#32302c]";
                 
-                // 썸네일 이미지가 없을 경우 띄워줄 은은한 회색 바탕의 노션 스타일 기본 썸네일
-                const fallbackImg = `https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=500&auto=format&fit=crop&q=60`;
-                const imgSrc = news.image && news.image.trim() !== "" ? news.image : fallbackImg;
-                
-              const card = `
-    <a href="${news.link}" target="_blank" class="flex flex-col sm:flex-row sm:items-center justify-between p-4 border-b border-gray-100 hover:bg-gray-50 transition-colors group">
-        <div class="flex items-center gap-3 mb-2 sm:mb-0">
-            <span class="notion-tag ${colorClass} shrink-0">${news.category}</span>
-            <h2 class="text-[15px] font-semibold text-gray-800 group-hover:text-blue-600">${news.title}</h2>
-        </div>
-        <div class="text-[13px] text-gray-400 whitespace-nowrap shrink-0">${news.date}</div>
-    </a>
-`;
+                const card = `
+                    <a href="${news.link}" target="_blank" class="flex flex-col sm:flex-row sm:items-center justify-between p-4 border-b border-gray-100 hover:bg-gray-50 transition-colors group last:border-b-0">
+                        <div class="flex flex-col sm:flex-row sm:items-center w-full mb-2 sm:mb-0">
+                            <!-- 구분 (태그) -->
+                            <div class="w-32 shrink-0 mb-2 sm:mb-0 sm:text-center">
+                                <span class="notion-tag ${colorClass}">${news.category}</span>
+                            </div>
+                            <!-- 기사 제목 -->
+                            <div class="flex-grow sm:pl-4">
+                                <h2 class="text-[15px] font-medium text-gray-800 group-hover:text-blue-600 truncate max-w-full sm:max-w-2xl">${news.title}</h2>
+                            </div>
+                        </div>
+                        <!-- 수집일 -->
+                        <div class="text-[13px] text-gray-400 whitespace-nowrap shrink-0 sm:w-24 sm:text-center">
+                            ${news.date}
+                        </div>
+                    </a>
+                `;
                 container.innerHTML += card;
             });
         }
