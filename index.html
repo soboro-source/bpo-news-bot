@@ -26,17 +26,17 @@
     <header class="max-w-5xl mx-auto px-6 sm:px-8 py-12">
         <div class="text-4xl mb-3">📰</div>
         <h1 class="text-3xl font-bold tracking-tight mb-2 text-gray-900">BPO 일일 뉴스 대시보드</h1>
-        <p class="text-gray-500 text-sm">매일 아침 9시, 컨택센터 및 BPO 관련 주요 뉴스가 자동 업데이트 됩니다.</p>
+        <p class="text-gray-500 text-sm">매일 아침 8시 30분, 컨택센터 및 BPO 관련 주요 뉴스가 자동 업데이트 됩니다.</p>
     </header>
 
     <main class="max-w-5xl mx-auto px-6 sm:px-8 pb-20">
-        <!-- 카테고리 필터 -->
+        <!-- 카테고리 필터 (요청하신 순서 적용) -->
         <div class="mb-6 flex flex-wrap gap-2 text-sm" id="category-filter"></div>
         
         <!-- 게시판(리스트) 영역 -->
         <div class="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
             
-            <!-- 테이블 머리글 (PC에서만 표출, 모바일은 자동 숨김) -->
+            <!-- 테이블 머리글 -->
             <div class="hidden sm:flex items-center justify-between p-3.5 border-b-2 border-gray-100 bg-gray-50 text-[14px] font-bold text-gray-600">
                 <div class="flex items-center w-full">
                     <div class="w-32 shrink-0 text-center">구분</div>
@@ -74,7 +74,16 @@
 
         function renderCategories() {
             const filterContainer = document.getElementById('category-filter');
-            const categories = ["전체보기", "1. 자사 관련", "2. 경쟁사 동향", "3. 고객사 동향", "4. 관련 법 소식", "5. 지원 정책", "6. 기타 소식"];
+            // 전체보기 뒤에 요청하신 정확한 순서로 카테고리 배치
+            const categories = [
+                "전체보기", 
+                "1. 자사 관련", 
+                "2. 경쟁사 동향", 
+                "3. 고객사 동향", 
+                "4. 관련 법 소식", 
+                "5. 지원 정책", 
+                "6. 기타 소식"
+            ];
             
             categories.forEach(cat => {
                 const btn = document.createElement('button');
