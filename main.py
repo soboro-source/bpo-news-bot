@@ -20,12 +20,10 @@ def get_og_image(url):
         "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"
     }
     try:
-        # 1. 구글 뉴스 링크 접속
         res = requests.get(url, headers=headers, timeout=10, allow_redirects=True)
         html = res.text
         current_url = res.url
 
-        # 2. 구글 이동 페이지에 갇힌 경우 원문 주소 강제 추출 후 재접속
         if "news.google.com" in current_url or "consent.google.com" in current_url:
             match = re.search(r'(?:data-n-v|URL)=["\'](http[^"\']+)["\']', html, re.IGNORECASE)
             if match:
@@ -34,18 +32,15 @@ def get_og_image(url):
                 html = res.text
                 current_url = res.url
 
-        # 3. 끝내 원문 접속에 실패하고 구글에 남아있다면 썸네일 수집 포기 (기본 이미지 표출)
         if "google.com" in current_url:
             return ""
 
-        # 4. 언론사 원문 페이지에서 진짜 썸네일(og:image) 추출
         soup = BeautifulSoup(html, 'html.parser')
         og_tag = soup.find('meta', property=re.compile(r'^og:image', re.I)) or soup.find('meta', attrs={'name': re.compile(r'^og:image', re.I)})
         
         if og_tag and og_tag.get('content'):
             img_url = og_tag['content'].strip()
             
-            # ★ 핵심: 구글 관련 이미지(로고, 프로필 등)가 잡히면 무조건 차단
             if "gstatic.com" in img_url or "google.com" in img_url or "googleusercontent.com" in img_url:
                 return ""
                 
@@ -112,6 +107,16 @@ def news_bot():
                 existing_news = json.load(f)
             except Exception:
                 pass
+    
+    # ★ 자동 정화 로직: 기존 파일에 'googleusercontent' 주소가 있으면 스스로 버리고 다시 긁어옵니다.
+    cleaned_existing_news = []
+    for item in existing_news:
+        img = item.get("image", "")
+        if "googleusercontent.com" in img or "google.com" in img or "gstatic.com" in img:
+            continue
+        cleaned_existing_news.append(item)
+        
+    existing_news = cleaned_existing_news
                 
     existing_urls = {item["link"] for item in existing_news}
     all_new_articles = []
