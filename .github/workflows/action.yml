@@ -2,7 +2,7 @@ name: BPO News Crawler
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '30 23 * * *'  # 한국 시간 매일 아침 8시 30분에 실행
   workflow_dispatch:
 
 jobs:
@@ -28,5 +28,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add news.json
-          git commit -m "🚀 오늘자 뉴스 웹사이트 업데이트" || echo "새로운 뉴스가 없습니다."
+          git commit -m "🚀 아침 뉴스 자동 업데이트" || echo "새로운 뉴스가 없습니다."
           git push
