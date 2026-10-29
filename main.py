@@ -16,43 +16,43 @@ def parse_rss_date(published_parsed):
 
 def get_og_image(url):
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-        "Referer": "https://news.google.com/"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+        "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"
     }
     try:
-        # 1. 구글 뉴스 원본 링크 접속
-        res = requests.get(url, headers=headers, timeout=8, allow_redirects=True)
+        res = requests.get(url, headers=headers, timeout=10, allow_redirects=True)
         html = res.text
         current_url = res.url
 
-        # 2. 구글 뉴스 '중간 리다이렉트 페이지'에 갇힌 경우 실제 기사 주소 추적
-        if "news.google.com" in current_url:
+        # 구글 리다이렉트 페이지에 갇힌 경우 실제 링크 강제 추출
+        if "news.google.com" in current_url or "consent.google.com" in current_url:
             soup = BeautifulSoup(html, 'html.parser')
             real_url = None
             
-            # 구글 리다이렉트 페이지의 <a> 태그나 스크립트에서 실제 주소 찾기
             a_tag = soup.find('a')
             if a_tag and a_tag.get('href') and a_tag.get('href').startswith('http'):
                 real_url = a_tag['href']
-            
-            if not real_url:
-                match = re.search(r'(?:data-n-v|URL)=["\'](http[^"\']+)["\']', html, re.IGNORECASE)
+            else:
+                match = re.search(r'data-n-v="([^"]+)"', html)
                 if match:
                     real_url = match.group(1)
-
-            # 실제 기사 주소를 찾았다면 해당 언론사 페이지로 다시 접속
+                    
             if real_url:
-                res = requests.get(real_url, headers=headers, timeout=8, allow_redirects=True)
+                res = requests.get(real_url, headers=headers, timeout=10, allow_redirects=True)
                 html = res.text
                 current_url = res.url
 
-        # 3. 언론사 최종 페이지에서 썸네일(og:image) 정밀 추출
+        # 언론사 원문 페이지에서 썸네일 추출
         soup = BeautifulSoup(html, 'html.parser')
         og_tag = soup.find('meta', property=re.compile(r'^og:image', re.I)) or soup.find('meta', attrs={'name': re.compile(r'^og:image', re.I)})
         
         if og_tag and og_tag.get('content'):
             img_url = og_tag['content'].strip()
+            
+            # ★ 핵심: 구글 로고(G=)가 추출되면 무시하고 빈 칸 반환 (index.html의 예쁜 기본 대체 이미지가 뜨도록 함)
+            if "gstatic.com" in img_url or "google.com" in img_url:
+                return ""
+                
             if img_url.startswith('//'):
                 return 'https:' + img_url
             elif img_url.startswith('/'):
