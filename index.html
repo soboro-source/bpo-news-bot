@@ -77,26 +77,35 @@
                 document.getElementById('news-container').innerHTML = '<p class="text-gray-500">뉴스를 불러오는 중입니다. 첫 수집이 완료될 때까지 잠시 기다려주세요.</p>';
             });
 
-        function renderCategories() {
-            const filterContainer = document.getElementById('category-filter');
-            const categories = ["전체보기", ...new Set(allNews.map(item => item.category))].sort();
-            
-            categories.forEach(cat => {
-                const btn = document.createElement('button');
-                btn.innerText = cat;
-                btn.className = "px-3 py-1.5 rounded transition-colors text-gray-600 hover:bg-gray-100";
-                if (cat === "전체보기") btn.classList.add("font-bold", "text-black", "bg-gray-100");
-                
-                btn.onclick = (e) => {
-                    Array.from(filterContainer.children).forEach(child => {
-                        child.classList.remove("font-bold", "text-black", "bg-gray-100");
-                    });
-                    e.target.classList.add("font-bold", "text-black", "bg-gray-100");
-                    renderNews(cat === "전체보기" ? allNews : allNews.filter(news => news.category === cat));
-                };
-                filterContainer.appendChild(btn);
+function renderCategories() {
+    const filterContainer = document.getElementById('category-filter');
+    // 카테고리 목록을 고정으로 지정
+    const categories = [
+        "전체보기", 
+        "1. 자사 관련", 
+        "2. 경쟁사 동향", 
+        "3. 고객사 동향", 
+        "4. 관련 법 소식", 
+        "5. 지원 정책", 
+        "6. 기타 소식"
+    ];
+    
+    categories.forEach(cat => {
+        const btn = document.createElement('button');
+        btn.innerText = cat;
+        btn.className = "px-3 py-1.5 rounded transition-colors text-gray-600 hover:bg-gray-100";
+        if (cat === "전체보기") btn.classList.add("font-bold", "text-black", "bg-gray-100");
+        
+        btn.onclick = (e) => {
+            Array.from(filterContainer.children).forEach(child => {
+                child.classList.remove("font-bold", "text-black", "bg-gray-100");
             });
-        }
+            e.target.classList.add("font-bold", "text-black", "bg-gray-100");
+            renderNews(cat === "전체보기" ? allNews : allNews.filter(news => news.category === cat));
+        };
+        filterContainer.appendChild(btn);
+    });
+}
 
         function renderNews(newsArray) {
             const container = document.getElementById('news-container');
