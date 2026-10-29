@@ -20,37 +20,33 @@ def get_og_image(url):
         "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"
     }
     try:
+        # 1. 구글 뉴스 링크 접속
         res = requests.get(url, headers=headers, timeout=10, allow_redirects=True)
         html = res.text
         current_url = res.url
 
-        # 구글 리다이렉트 페이지에 갇힌 경우 실제 링크 강제 추출
+        # 2. 구글 이동 페이지에 갇힌 경우 원문 주소 강제 추출 후 재접속
         if "news.google.com" in current_url or "consent.google.com" in current_url:
-            soup = BeautifulSoup(html, 'html.parser')
-            real_url = None
-            
-            a_tag = soup.find('a')
-            if a_tag and a_tag.get('href') and a_tag.get('href').startswith('http'):
-                real_url = a_tag['href']
-            else:
-                match = re.search(r'data-n-v="([^"]+)"', html)
-                if match:
-                    real_url = match.group(1)
-                    
-            if real_url:
+            match = re.search(r'(?:data-n-v|URL)=["\'](http[^"\']+)["\']', html, re.IGNORECASE)
+            if match:
+                real_url = match.group(1)
                 res = requests.get(real_url, headers=headers, timeout=10, allow_redirects=True)
                 html = res.text
                 current_url = res.url
 
-        # 언론사 원문 페이지에서 썸네일 추출
+        # 3. 끝내 원문 접속에 실패하고 구글에 남아있다면 썸네일 수집 포기 (기본 이미지 표출)
+        if "google.com" in current_url:
+            return ""
+
+        # 4. 언론사 원문 페이지에서 진짜 썸네일(og:image) 추출
         soup = BeautifulSoup(html, 'html.parser')
         og_tag = soup.find('meta', property=re.compile(r'^og:image', re.I)) or soup.find('meta', attrs={'name': re.compile(r'^og:image', re.I)})
         
         if og_tag and og_tag.get('content'):
             img_url = og_tag['content'].strip()
             
-            # ★ 핵심: 구글 로고(G=)가 추출되면 무시하고 빈 칸 반환 (index.html의 예쁜 기본 대체 이미지가 뜨도록 함)
-            if "gstatic.com" in img_url or "google.com" in img_url:
+            # ★ 핵심: 구글 관련 이미지(로고, 프로필 등)가 잡히면 무조건 차단
+            if "gstatic.com" in img_url or "google.com" in img_url or "googleusercontent.com" in img_url:
                 return ""
                 
             if img_url.startswith('//'):
