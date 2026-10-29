@@ -16,47 +16,55 @@ def parse_rss_date(published_parsed):
 
 def get_og_image(url):
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
         "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"
     }
     try:
+        # 1. 구글 뉴스 링크 최초 접속
         res = requests.get(url, headers=headers, timeout=10, allow_redirects=True)
         html = res.text
         current_url = res.url
+        real_url = None
 
-        # 구글 리다이렉트 페이지에 갇힌 경우 (추적 로직 복구)
-        if "news.google.com" in current_url or "consent.google.com" in current_url:
-            soup = BeautifulSoup(html, 'html.parser')
-            real_url = None
+        # 2. 구글이 중간 페이지로 막았을 경우, 진짜 언론사 주소 강제 해독
+        if "news.google.com" in current_url or "google.com" in current_url:
+            # 패턴 A: 메타 리프레시 태그 해독
+            meta_match = re.search(r'content=["\']0;\s*url=(.*?)["\']', html, re.IGNORECASE)
+            if meta_match:
+                real_url = meta_match.group(1)
             
-            # 1. <a> 태그에서 실제 주소 찾기
-            a_tag = soup.find('a')
-            if a_tag and a_tag.get('href') and a_tag.get('href').startswith('http'):
-                real_url = a_tag['href']
-            
-            # 2. 스크립트 데이터에서 실제 주소 찾기
+            # 패턴 B: 자바스크립트 해독
             if not real_url:
-                match = re.search(r'(?:data-n-v|URL)=["\'](http[^"\']+)["\']', html, re.IGNORECASE)
-                if match:
-                    real_url = match.group(1)
-                    
+                js_match = re.search(r'window\.location\.replace\([\'"](.*?)[\'"]\)', html)
+                if js_match:
+                    real_url = js_match.group(1)
+            
+            # 패턴 C: a 태그 직접 추출
+            if not real_url:
+                soup = BeautifulSoup(html, 'html.parser')
+                a_tag = soup.find('a')
+                if a_tag and a_tag.get('href') and a_tag.get('href').startswith('http'):
+                    real_url = a_tag['href']
+
+            # 진짜 주소를 찾았다면 언론사 페이지로 2차 딥다이브 접속
             if real_url:
                 res = requests.get(real_url, headers=headers, timeout=10, allow_redirects=True)
                 html = res.text
                 current_url = res.url
 
-        # 여전히 구글 도메인이면 썸네일 수집 포기
+        # 여전히 구글 페이지에 갇혔다면 수집 포기 (기본 이미지 띄움)
         if "google.com" in current_url:
             return ""
 
-        # 언론사 원문 페이지에서 썸네일 추출
+        # 3. 진짜 언론사 페이지 도착 완료 -> 썸네일(og:image) 추출
         soup = BeautifulSoup(html, 'html.parser')
         og_tag = soup.find('meta', property=re.compile(r'^og:image', re.I)) or soup.find('meta', attrs={'name': re.compile(r'^og:image', re.I)})
         
         if og_tag and og_tag.get('content'):
             img_url = og_tag['content'].strip()
             
-            # 구글 로고 등 차단
+            # 구글 로고 쓰레기 데이터는 완벽 차단
             if "gstatic.com" in img_url or "google.com" in img_url or "googleusercontent.com" in img_url:
                 return ""
                 
@@ -124,11 +132,11 @@ def news_bot():
             except Exception:
                 pass
                 
-    # 빈칸("") 이미지나 구글 로고 이미지를 가진 기존 데이터 삭제 처리
+    # 썸네일 수집에 실패했던(빈칸이거나 구글로고인) 기록은 삭제하여 재수집 유도
     cleaned_existing_news = []
     for item in existing_news:
         img = item.get("image", "")
-        if img == "" or "googleusercontent.com" in img or "google.com" in img or "gstatic.com" in img:
+        if img == "" or "google" in img or "gstatic" in img:
             continue
         cleaned_existing_news.append(item)
         
