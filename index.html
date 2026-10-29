@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BPO 뉴스 대시보드</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* 노션 특유의 폰트와 배경색 느낌 구현 */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+            background-color: #ffffff;
+            color: #37352f;
+        }
+        .notion-card {
+            border: 1px solid rgba(55, 53, 47, 0.16);
+            border-radius: 4px;
+            box-shadow: rgba(15, 15, 15, 0.05) 0px 0px 0px 1px, rgba(15, 15, 15, 0.1) 0px 2px 4px;
+            transition: background-color 100ms ease-in 0s;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            height: 100%;
+        }
+        .notion-card:hover {
+            background-color: rgba(55, 53, 47, 0.03);
+        }
+        .notion-tag {
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 14px;
+            line-height: 120%;
+            display: inline-flex;
+            align-items: center;
+        }
+        .line-clamp-2 {
+            display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <!-- 노션 스타일 헤더 -->
+    <header class="max-w-6xl mx-auto px-12 py-16">
+        <div class="text-4xl mb-4">📰</div>
+        <h1 class="text-4xl font-bold tracking-tight mb-2 text-gray-900">BPO 일일 뉴스 대시보드</h1>
+        <p class="text-gray-500">매일 아침 9시, 컨택센터 및 BPO 관련 주요 뉴스가 자동 업데이트 됩니다.</p>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-12 pb-20">
+        <!-- 카테고리 필터 탭 -->
+        <div class="mb-6 flex flex-wrap gap-2 text-sm" id="category-filter"></div>
+        
+        <!-- 카드 그리드 영역 -->
+        <div id="news-container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4"></div>
+    </main>
+
+    <script>
+        // 노션 기본 태그 색상 매핑
+        const categoryColors = {
+            "1. 자사 관련": "bg-[#e8def8] text-[#4a3265]", // 보라색 배경
+            "2. 경쟁사 동향": "bg-[#ffe2dd] text-[#5c1a16]", // 빨간색 배경
+            "3. 고객사 동향": "bg-[#d3e5ef] text-[#183347]", // 파란색 배경
+            "4. 관련 법 소식": "bg-[#fadec9] text-[#49290e]", // 주황색 배경
+            "5. 지원 정책": "bg-[#dbeddb] text-[#1c3829]", // 초록색 배경
+            "6. 기타 소식": "bg-[#e3e2e0] text-[#32302c]"  // 회색 배경
+        };
+        let allNews = [];
+
+        fetch('news.json')
+            .then(res => res.json())
+            .then(data => {
+                allNews = data;
+                renderCategories();
+                renderNews(allNews);
+            })
+            .catch(error => {
+                document.getElementById('news-container').innerHTML = '<p class="text-gray-500">뉴스를 불러오는 중입니다. 첫 수집이 완료될 때까지 잠시 기다려주세요.</p>';
+            });
+
+        function renderCategories() {
+            const filterContainer = document.getElementById('category-filter');
+            const categories = ["전체보기", ...new Set(allNews.map(item => item.category))].sort();
+            
+            categories.forEach(cat => {
+                const btn = document.createElement('button');
+                btn.innerText = cat;
+                btn.className = "px-3 py-1.5 rounded transition-colors text-gray-600 hover:bg-gray-100";
+                if (cat === "전체보기") btn.classList.add("font-bold", "text-black", "bg-gray-100");
+                
+                btn.onclick = (e) => {
+                    Array.from(filterContainer.children).forEach(child => {
+                        child.classList.remove("font-bold", "text-black", "bg-gray-100");
+                    });
+                    e.target.classList.add("font-bold", "text-black", "bg-gray-100");
+                    renderNews(cat === "전체보기" ? allNews : allNews.filter(news => news.category === cat));
+                };
+                filterContainer.appendChild(btn);
+            });
+        }
+
+        function renderNews(newsArray) {
+            const container = document.getElementById('news-container');
+            container.innerHTML = '';
+            
+            newsArray.forEach(news => {
+                const colorClass = categoryColors[news.category] || "bg-[#e3e2e0] text-[#32302c]";
+                const fallbackImg = `https://ui-avatars.com/api/?name=${encodeURIComponent(news.category.substring(3))}&background=random&color=fff&size=400&font-size=0.2`;
+                
+                const card = `
+                    <a href="${news.link}" target="_blank" class="notion-card group">
+                        <!-- 커버 이미지 영역 -->
+                        <div class="w-full h-40 border-b border-gray-100 overflow-hidden bg-gray-50">
+                            <img src="${fallbackImg}" alt="cover" class="w-full h-full object-cover">
+                        </div>
+                        <!-- 텍스트 영역 -->
+                        <div class="p-3.5 flex flex-col flex-grow">
+                            <h2 class="text-[15px] font-semibold mb-3 leading-snug line-clamp-2 group-hover:text-blue-600">
+                                ${news.title}
+                            </h2>
+                            <div class="mt-auto space-y-2">
+                                <div><span class="notion-tag ${colorClass}">${news.category}</span></div>
+                                <div class="text-[13px] text-gray-400">수집일: ${news.date}</div>
+                            </div>
+                        </div>
+                    </a>
+                `;
+                container.innerHTML += card;
+            });
+        }
+    </script>
+</body>
+</html>
