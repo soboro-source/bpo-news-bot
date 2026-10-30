@@ -21,63 +21,54 @@ def get_og_image(url):
         "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"
     }
     try:
-        # 1. 구글 뉴스 링크 최초 접속
         res = requests.get(url, headers=headers, timeout=10, allow_redirects=True)
         html = res.text
         current_url = res.url
         real_url = None
 
-        # 2. 구글이 중간 페이지로 막았을 경우, 진짜 언론사 주소 강제 해독
         if "news.google.com" in current_url or "google.com" in current_url:
-            # 패턴 A: 메타 리프레시 태그 해독
             meta_match = re.search(r'content=["\']0;\s*url=(.*?)["\']', html, re.IGNORECASE)
             if meta_match:
                 real_url = meta_match.group(1)
-            
-            # 패턴 B: 자바스크립트 해독
             if not real_url:
                 js_match = re.search(r'window\.location\.replace\([\'"](.*?)[\'"]\)', html)
                 if js_match:
                     real_url = js_match.group(1)
-            
-            # 패턴 C: a 태그 직접 추출
             if not real_url:
                 soup = BeautifulSoup(html, 'html.parser')
                 a_tag = soup.find('a')
                 if a_tag and a_tag.get('href') and a_tag.get('href').startswith('http'):
                     real_url = a_tag['href']
 
-            # 진짜 주소를 찾았다면 언론사 페이지로 2차 딥다이브 접속
             if real_url:
                 res = requests.get(real_url, headers=headers, timeout=10, allow_redirects=True)
                 html = res.text
                 current_url = res.url
 
-        # 여전히 구글 페이지에 갇혔다면 수집 포기 (기본 이미지 띄움)
         if "google.com" in current_url:
             return ""
 
-        # 3. 진짜 언론사 페이지 도착 완료 -> 썸네일(og:image) 추출
         soup = BeautifulSoup(html, 'html.parser')
         og_tag = soup.find('meta', property=re.compile(r'^og:image', re.I)) or soup.find('meta', attrs={'name': re.compile(r'^og:image', re.I)})
         
         if og_tag and og_tag.get('content'):
             img_url = og_tag['content'].strip()
-            
-            # 구글 로고 쓰레기 데이터는 완벽 차단
             if "gstatic.com" in img_url or "google.com" in img_url or "googleusercontent.com" in img_url:
                 return ""
-                
             if img_url.startswith('//'):
                 return 'https:' + img_url
             elif img_url.startswith('/'):
                 return urllib.parse.urljoin(current_url, img_url)
             return img_url
-            
     except Exception:
         pass
-        
     return ""
+
+def clean_title(title):
+    # 언론사 이름(예: - 연합뉴스, [이데일리] 등)과 특수문자를 제거하여 순수 제목 비교용으로 만듦
+    cleaned = re.sub(r'\[.*?\]|\(.*?\)', '', title)
+    cleaned = re.sub(r'\s*-\s*[^-]+$', '', cleaned)
+    return re.sub(r'[^가-힣a-zA-Z0-9]', '', cleaned)
 
 def get_and_save_news(category_name, search_keyword, existing_urls, max_limit=30):
     encoded_keyword = urllib.parse.quote(search_keyword)
@@ -132,16 +123,6 @@ def news_bot():
             except Exception:
                 pass
                 
-    # 썸네일 수집에 실패했던(빈칸이거나 구글로고인) 기록은 삭제하여 재수집 유도
-    cleaned_existing_news = []
-    for item in existing_news:
-        img = item.get("image", "")
-        if img == "" or "google" in img or "gstatic" in img:
-            continue
-        cleaned_existing_news.append(item)
-        
-    existing_news = cleaned_existing_news
-                
     existing_urls = {item["link"] for item in existing_news}
     all_new_articles = []
     
@@ -149,12 +130,24 @@ def news_bot():
         articles = get_and_save_news(category, keyword, existing_urls, max_limit=30)
         all_new_articles.extend(articles)
         
-    updated_news = all_new_articles + existing_news
-    updated_news.sort(key=lambda x: x["date"], reverse=True)
-    updated_news = updated_news[:500]
+    # ★ 중복 제거 로직 (제목이 유사한 기사 중복 필터링)
+    combined_news = all_new_articles + existing_news
+    unique_news = []
+    seen_titles = set()
+
+    for item in combined_news:
+        simplified_title = clean_title(item["title"])
+        # 너무 짧은 제목이거나 이미 수집된 유사 제목이면 패스
+        if len(simplified_title) < 4 or simplified_title in seen_titles:
+            continue
+        seen_titles.add(simplified_title)
+        unique_news.append(item)
+
+    unique_news.sort(key=lambda x: x["date"], reverse=True)
+    unique_news = unique_news[:500]
 
     with open("news.json", "w", encoding="utf-8") as f:
-        json.dump(updated_news, f, ensure_ascii=False, indent=2)
+        json.dump(unique_news, f, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
     news_bot()
