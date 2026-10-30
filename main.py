@@ -4,6 +4,7 @@ import os
 import re
 import time
 import urllib.parse
+import difflib  # 문장 유사도 검사를 위한 내장 라이브러리 추가
 import feedparser
 import requests
 from bs4 import BeautifulSoup
@@ -65,7 +66,6 @@ def get_og_image(url):
     return ""
 
 def clean_title(title):
-    # 언론사 이름(예: - 연합뉴스, [이데일리] 등)과 특수문자를 제거하여 순수 제목 비교용으로 만듦
     cleaned = re.sub(r'\[.*?\]|\(.*?\)', '', title)
     cleaned = re.sub(r'\s*-\s*[^-]+$', '', cleaned)
     return re.sub(r'[^가-힣a-zA-Z0-9]', '', cleaned)
@@ -109,7 +109,7 @@ def news_bot():
     categories = {
         "1. 자사 관련": '"KS한국고용정보" OR "한국고용정보" OR "KS잉그마" OR "CnAI" OR "KS신용정보"',
         "2. 경쟁사 동향": '"효성ITX" OR "트랜스코스모스" OR "메타넷엠플랫폼" OR "유베이스" OR "메타엠" OR "ktcs" OR "ktis" OR "제이앤비컨설팅" OR "아데코"',
-        "3. 고객사 동향": '"국민은행" OR "신한은행" OR "우리은행" OR "하나은행" OR "쿠팡" OR "카카오뱅크" OR "배달의민족" OR "카카오페이" OR "국민건강보험공단" OR "국민연금공단" OR "지자체 콜센터" OR "정부부처 컨택센터"',
+        "3. 고객사 동향": '"국민은행" OR "신한은행" OR "우리은행" OR "하나은행" OR "쿠팡" OR "네이버" OR "배달의민족" OR "당근마켓" OR "국민건강보험공단" OR "국민연금공단" OR "지자체 콜센터" OR "정부부처 컨택센터"',
         "4. 관련 법 소식": '"근로기준법" OR "근로기준법 개정" OR "최저임금" OR "포괄임금" OR "교육생 근로자성 인정" OR "노동조합법" OR "주52시간제 지침" OR "직장 내 괴롭힘 지침" OR "감정노동자 보호법"',
         "5. 지원 정책": '"컨택센터 유치 지원" OR "중견기업 고용창출" OR "중견기업 세제지원" OR "고용 지원금" OR "장애인고용장려금" OR "장려금" OR "고용안정장려금 중견기업" OR "지자체 보조금 콜센터" OR "지방투자촉진보조금" OR "기업 인증제도" OR "중견기업 인증제" OR "기업 인증 신청"',
         "6. 기타 소식": '"화제" OR "꿀팁" OR "스트레칭" OR "영단어" OR "트렌드"'
@@ -130,18 +130,27 @@ def news_bot():
         articles = get_and_save_news(category, keyword, existing_urls, max_limit=30)
         all_new_articles.extend(articles)
         
-    # ★ 중복 제거 로직 (제목이 유사한 기사 중복 필터링)
+    # ★ 스마트 중복 제거 로직 (유사도 65% 이상이면 필터링)
     combined_news = all_new_articles + existing_news
     unique_news = []
-    seen_titles = set()
+    seen_titles = []
 
     for item in combined_news:
         simplified_title = clean_title(item["title"])
-        # 너무 짧은 제목이거나 이미 수집된 유사 제목이면 패스
-        if len(simplified_title) < 4 or simplified_title in seen_titles:
+        if len(simplified_title) < 4:
             continue
-        seen_titles.add(simplified_title)
-        unique_news.append(item)
+            
+        is_duplicate = False
+        for seen in seen_titles:
+            # 두 제목의 글자 배열이 65% 이상 비슷하면 같은 기사로 취급
+            similarity = difflib.SequenceMatcher(None, simplified_title, seen).ratio()
+            if similarity > 0.65:
+                is_duplicate = True
+                break
+                
+        if not is_duplicate:
+            seen_titles.append(simplified_title)
+            unique_news.append(item)
 
     unique_news.sort(key=lambda x: x["date"], reverse=True)
     unique_news = unique_news[:500]
