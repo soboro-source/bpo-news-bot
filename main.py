@@ -4,7 +4,7 @@ import os
 import re
 import time
 import urllib.parse
-import difflib  # 문장 유사도 검사를 위한 내장 라이브러리 추가
+import difflib
 import feedparser
 import requests
 from bs4 import BeautifulSoup
@@ -130,7 +130,7 @@ def news_bot():
         articles = get_and_save_news(category, keyword, existing_urls, max_limit=30)
         all_new_articles.extend(articles)
         
-    # ★ 스마트 중복 제거 로직 (유사도 65% 이상이면 필터링)
+    # 스마트 중복 제거 로직 (유사도 65% 이상 필터링)
     combined_news = all_new_articles + existing_news
     unique_news = []
     seen_titles = []
@@ -142,7 +142,6 @@ def news_bot():
             
         is_duplicate = False
         for seen in seen_titles:
-            # 두 제목의 글자 배열이 65% 이상 비슷하면 같은 기사로 취급
             similarity = difflib.SequenceMatcher(None, simplified_title, seen).ratio()
             if similarity > 0.65:
                 is_duplicate = True
@@ -152,11 +151,15 @@ def news_bot():
             seen_titles.append(simplified_title)
             unique_news.append(item)
 
-    unique_news.sort(key=lambda x: x["date"], reverse=True)
-    unique_news = unique_news[:500]
+    # ★ 3일이 지난 기사 자동 삭제(유통기한) 로직
+    cutoff_date_str = (datetime.now() - timedelta(days=3)).strftime("%Y-%m-%d")
+    final_news = [item for item in unique_news if item["date"] >= cutoff_date_str]
+
+    final_news.sort(key=lambda x: x["date"], reverse=True)
+    final_news = final_news[:500]
 
     with open("news.json", "w", encoding="utf-8") as f:
-        json.dump(unique_news, f, ensure_ascii=False, indent=2)
+        json.dump(final_news, f, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
     news_bot()
