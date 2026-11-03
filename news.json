@@ -1,5 +1,502 @@
 [
   {
+    "title": "[똑똑한쇼핑] 신세계그룹 ‘쓱데이’, 쿠팡, 롯데마트·슈퍼, CJ ONE, 현대백화점, NS홈쇼핑, GS샵 - 에너지경제신문",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1QMWIyWWN3VDFCaHdxSzVlVDNUY3VaNHZjM2F5ZlNHWFpvbENRcDd2N01vMUkwRGNUdlNfbVh1cVNzRU9SMzlza2dnQ2d1c3FkWkhCT25yYVNQOGJDRFFQVGNVQQ?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-03",
+    "image": ""
+  },
+  {
+    "title": "’이해란 더블더블’ 삼성생명, 하나은행 84-66 격파 - 연합뉴스TV",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE55Nm1JTno4VXJTdFBCUEdJWmVHNF84YVBCYXBkNl9mS1oyaHBRT1FSWWdlZ2lWOGExYXp0M1BzZS1GQTh2YWd5a2xSMXNXWm1YakNfMmhUX0NxMFY5NVFBLVZNcHQwMDg?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "[Who Is ?] 윤호영 카카오뱅크 대표이사 - 비즈니스포스트",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE51MUZRX1Y2VXNuNXJ2WXc3X3hGMzI3RjhNSFBOS1VBLU83WDhqSExzd0YyWlZIQzZpNmkwcE91d0VDX2JVVXliSk41YkIyQkZKY0Y4aDZYWmJLcktQLW96VjdZSDlSZk1zakUtbW9BYkppeEE?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "아이들 음식에 가격 장난?…쿠팡 이유식값 한 달 새 56% ‘껑충’ - JTBC",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBKZmd1WDlRSEpSdlZZN2ZncGU2Z2pJc1JwT242eUN5ZmFYNGJ3alJMaFZTT09vOXJuVkp4RGJNaEFOMl9idS13RGgzZDVrU1gwUGxhdw?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "우리은행, 중기 외면한 생산적 금융?…건전성도 놓쳤다 - 한스경제",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB6S3AzeGNhNGZNMmtwb2I3dVpleEJSaHhMbzRaMnlLMURvM1JkdExMRDhGY1VxdElLV2tKNi11by1nTGJYX25pRGJEa25zdXkza3JwZ3NJWVRsX3poTDljTTZQbGFUX1MxdXJF0gFvQVVfeXFMTXl1bXVET0dsQnl6TWhJczl6cnFjbE4wcnVUUHQ5SWdsdE5JQmZNeS00bW9XMWtLRkdIaHhuS2V5Q1dSQ254bm16SnFCay1vWGFIWTdobXUwR01Ic2EyZ3lDek5URlR2Z2VPUzREeFlR?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "[브랜드 인사이트] 신한은행, 현해탄 건넌 금융보국의 꿈… 미래 금융의 길을 묻다 - 천지일보",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KVHlEZ3d5Qk96SjV1b2ZtTENET3NSSGh2VHM2OWc4RU1Yc2JZN0FpaHZtS25namlzX25XWE5WWkhvV3AyMEpmc0dnNnNoUDliSzB1TGs4LVNydjRhdEVPWGNIc1RFNzRYTkE?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "우리은행, 인도 신재생에너지 사업에 2600만 달러 대출…친환경 금융 확대 - 더구루",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9hckRMN2Y3SG1oVXZhRzdCV1VNRVhGZ3dHNDlPcHdLVlhNOUFEZzRnTHh6VXRITFNLMmJwVUZIYTdXSW5uOUJENEZHUmthMkVIZGN1WlljZlYxaGxEdEE?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "쿠팡, 수험생 간식·기념일 먹거리 모아 '스위트샵' 기획전 - 연합뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBRlpwR21pVTQ3bE14NXhrREk1d25EblYydU5QSzRTY2RPd3VZbjNwSFBwTTVRRXA0TW1lZWRzaThjekEzb09SRy1zbjJoMHBpNVVCX0tpUkRONk3SAWBBVV95cUxOQjNHLWE4SFFfNmhxbHNHYlRJU3JxTmJwTkppbUV2RUJzVnRYNU9ub1NCOVRXbFhKejk4bVdJWEZrTHYzUHlnRk4yWl93Z3NicmZCQWdNVDNEQlVpV08yVC0?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "카카오페이증권, 인수업 인가 후 첫 스팩 설립…IB 사업 본격화 - 연합인포맥스",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5WNmpkSWxuV0VITVdyMGJQcHlPSy1NZzdJaXZVaG04YjVJaUx0NllwdEZJYkc2MU44dUliS2hiTUc0X3gwN3dUcUV3dTRGWkZOLWtxcXlDNTFvZlduUjlOTWpkaHJsekotN2VyckhCOXk?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "하나은행, 장애인 자녀의 재산보호를 통해 포용금융 확대 나선다! - 한국경제",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfSTlVRTg3eG1KdUhuZmVRRjdYM2dKbXQ1cENhNXFPOEJvOFFQS1NpS28yUVUzTS03cVFjWnRtNjRZbDB2Z25ZcDdwcXpPdXBtbE9WQmJTU25oZw?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "배민ㆍ쿠팡이츠, 배달앱 성장세 엎치락 뒤치락… 퀵커머스로 승부수 - 대한경제",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE15cFZDVWZrMG5oMzg5UE1MNzVUR1RtT001TXZaS3hiY0JBNGlURlRndTVnTEM5Z0xnYlpMWENrTmVfbi1JMGxJb0RBZlBGN0s2M25Fb0FfSW5YSmZSd2VtZzhDc05ha3pydmlDcnBnUG05Ni0w?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "여자농구 삼성생명, 하나은행 완파…시즌 첫 경기 승리 - 동아일보",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB6VTZUM3gzbElCa3RTUEJfeDFoQ2VaUHllSU1rVnVwbl9FaUhsSmRFOFVEdklhYUI0SGFXRWlkbm9jZW5oQmhIN2dEV3dQWUJ6UlRONmJoRTlTZVJ0ME1pdjRFbHZVVUFFamlKY2ZUc1FySVhu0gFmQVVfeXFMUGZDbTA1NjVfTk40cEgxTWtpcUV0OFZCSThRZklZTmFCS211MTlGTVVBSzV4LTRGTDg1RldJREFtcTVkYkJiSURZOWtmLUk0SjNOTEJya0tzZHZ2Rjdla3oydnZwaTVR?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "'리테일 No.1' KB국민은행, 기업대출 18조 늘렸다 - 톱데일리",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0yN2NvWVhNVnJKbVROS294cmN2UnQ5dnFhTW5ONWtodmVkWWdxSFNXckFZUTV3ek5od0JfZ3B4MDVGbU1IN3dlQ2lVdm5HQk1l?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "쿠팡, 8일까지 '와우 멤버스데이' - 지디넷코리아",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9yRzZlYkM5dGJMbGIxMzZ3LUp0QjBlaXNrS1c4dzhaYUJmOGNTdElRckt6RmFOZUljODBLcllIOHk0MTJuZFNXdklNTFE4d3MtcU1BYlJn?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "대구신보·하나은행, 지역기업에 1206억원 금융지원 - 경북매일",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9zY3lWN09UTTZvRXhiLVFVVGFpMUo4VHpNMmxaLVExZjJ0Y09qS3pHNHdBbS02TjM3ZFNhcjNvNkxsdDltbkFrdjUweW1QSlU5MFVVZnJJX3NmZw?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "신보·우리은행, 판매 중소기업에 2000억 ‘Supply-One 보증’ 공급 - 뉴스프리존",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1NNFhIdVJRZGdQczM1UjZCdjI2a3NYZ0d4QTc1SldVckg0eXhfNEE5YVBxVU1wdjJuYWtXSEUwcWpSQ183MXBtRFFuSWxaZmF3Qkc3dGJJTjVCN3ZYT0Fzd2VGdzFDLUNtU0JWbVJ5dzYxd03SAXdBVV95cUxOeW42azdIdHQzNUtIWTBWaWY2eUlsX1UyaHZ0enF5TGNzSWEtRGs3UXo1NGVMelNhSElvU0JkdllSQXBNOThNRS1hZGRtak1VSm9hd0xWYjd0ZmxLMU1jcFBJcDVneEt4cWJiczFaSnZ0dWRkdjlQOA?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "하나은행, 부모 사후 장애인 자녀 생활비 신탁 지원 - PRESS9",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBvNUMxWG5JaWxVd2JaRzlVdjBlRmJ3dHUzRlA0RDFDNzhrV3lpWnhYTU1GdGN3ZHEtLTk2MFdZVkM2S2hnLVlGem1vbUZYVmoyOFFmV0EyMUFnNUF2c0g3RjJzckU?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "여자농구 삼성생명, 시즌 첫판 하나은행에 대승 - 연합뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Jd3laaURaOGV2REpsU0FPUzktcnFLbnItVk9KUHpoVTJyMUNxUUpSY184QWcyeFVXQW9HTmNRcjRsbHpMNzl4NV8zRnRscFZjYzFvMU9iMlNraUHSAWBBVV95cUxPT0dxbmczeGZsYTA5a0JHLWRPS0kwZ0s5T0h0VEhqNzhBVlAzUV9vTmc5WUVnbXZtcXFrd2VTOFdEMU9vMWtkS1phYm1vRl9mbl9GYlpTNU5mZnV2YmxSYlc?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "은행권 ‘역외 원화거래’ 첫 성사…우리은행 싱가포르지점서 국내 송금 - 한겨레",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54WnktR0laTl9iTXNsTm95Rm8zMk1QdG9oVHRqMUx5OUJzZTBTUEV0NDlLRjhnamhVOVotUHI4ak9IUXB0RXJRNkp0Z1dOTHhUOEUtd2o3WFhyVjNpSUk0dUlqZ1BwRzQ?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "해외서 원화계좌 열고 국내 투자…우리은행 \"역외 원화거래 첫 사례\" - 한국경제",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GZE80S0xZcm1CTWFxTWlKcThJOG9Zb19OTXM4QTBMNW9nYmlTcUsxOEdLWWNrcVBIaGJhNVIta1NjWWZWYV9RYzRBS2tJYmpzbDZ5d2UxeWtDQQ?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "국민연금공단, 사회적가치 경영 대상 최우수상 수상 - 천지일보",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1LZi1ZVW5FNmxxUGJUbXczSlI3QUNsSlllaUY3bHRFT3dtb2pLRUdLbWczay1makVJNWJQMlB1eU5kckVoaVBXcnNfbzlQWU0wVHlWdEg2ZEx4ODNnVUc1ZGtFTDJfc3hVS1E?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "[포토뉴스]신한은행 강원영동본부, 태백 노인요양시설 3곳에 2,000만원 기탁 - 강원일보",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ncXJKNHdaS1I1bXU2MkJlSlQ4TmhCMHBQU3VFU0RpbGMwdUhneWRSSEJxaXJjZ0h4aDJwN1dhWjVYb3d5dG0tdEVkZ1FNYUxiUlZSUi1TR3BJTFU?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "쿠팡, 수능·11월 기념일 겨냥 '스위트샵'…먹거리 1만5000여 개 - 뉴스1",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1odi10REE2Y2MtNGhWaU9ER3pUaVU5NVJ2Z3Y5RVg2dm82NHdmdXlDZGdRTFBVMThEc0JSMjlIaV8zVXI3VDVKVS1XekNhc0FaZHpXRWt0SUU2dmxkY0hJ?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "\"수능 응원부터 기념일 선물까지\"…쿠팡, '스위트샵' 기획전 - 파이낸셜뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5qSk4wMVY5eHdtZUw3ajk5bWNfci1VUGYtRDI4QXoxeHVJdmNsNGVfdkU3Tk1QdlloeHN2RFA3YXZMd2N3SklhZzJJUVVLVVE1OURndE1wbGo3dw?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "카카오페이, 인터넷은행 3사 제휴로 개인사업자 대출 선택지 넓혀 - 한국보험신문",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1yd3B5X3MyTVJwVXhUcVBtMk9sakJTajZmVmZrR1BDUEVDYnV0RjhQMklmekEtR3BXT3BUZElsTDl2WHNFeE94dS1Zb0V2VkZBd3EyYkY1Szhvd2R1OUNpeW44V1B1TGo2WHlV0gFvQVVfeXFMUE1QUWVIb3JDTHdEdlFvUG9oUHR6bG94VDJGc0dHY3ZESnp5Y0Q2b1p6YWJlZ2Z6R1R6S2lhU2IzM3NsVG9ORGVpeHRnclZpSnZOOV9qZUY0QnhyTkxjSEVDVFJXQkZzUzk5V2tFMmNJ?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "카카오페이 대출비교, 카카오뱅크·토스뱅크 개인사업자 대출 추가 - 와우테일",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE45QUdTajVMMWVSbUJjcUFFM2duU3BZSmNIcHdoSF93eFpCbG1IcU84LWR2N1lWcWVLd2x4aEdyQ25ENm4tclJ2akVqZkliSlE?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "카카오페이 \"개인사업자 대출 비교판 완성\" - ER 이코노믹리뷰",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TTGI2YWVtX3J2WlIwTGFkdmJnbG4xVVZta1YyLWx5WjNyRW9tTGZ5OWpMeEppR1Btd2FDVU8yeHRvaTA0T00ycXU5T29tbGhscWJnaXBzc2JBdG1Rdk5oZGtIMFdlQjhVVHl3cw?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "“언제든 희생할 준비 됐다”…‘최하위권 평가 뒤집기’ 삼성생명 위한 해란트의 진심 [SD 용인 인터뷰] - 스포츠동아",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4xcWpxS0E5R1p2eHFNSXBUc1dNZU01VkVLTWU5U19nMUVGWXhBek9neVBDdkNHdy12OWdaZWFaVUZFemluM1RHUm9oSXZUVnVFZWJ1RUIwbHl3SmNTMmhDbVo1ZksxTGdsM1BpaUctX1Vvdw?oc=5",
+    "category": "3. 고객사 동향",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "방글라데시 의류공장 529곳 멈췄다…임금 갈등 확산 - 한국섬유신문",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBJN0tCZkRlcEdPalRObGladmRYTXVCS0puVTZnX3lrZTFuN2kwU0VVdUZmTnhuV0gtdmZqNGZVRGd2SXc3REQ0YlNGbXNqZzMwLVhwTkdYYkJ6YmJJZ1llMmJNLVR5ZFRq?oc=5",
+    "category": "4. 관련 법 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "[쏙쏙 정보] 2027년 내 통장, 무엇이 달라질까…월급·연금·보험료 정리 - https://www.standingout.kr/",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1oZUVGYnM3V2pleUVBazlhNHZDS3lXMVNJWnNJUWxZVmFIbWF2SVFWYV9qOGRieUJpbGRRWDY2UFB5R0VpR3FnbHdSYXo2X0F3WVdyeW1OeEt5UzhscWZ0MjlsLTN6dnhYRklj?oc=5",
+    "category": "4. 관련 법 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "“5월에 놓친 ‘근로·자녀장려금’ 신청하세요” - 매일노동뉴스",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9vdFhBQ0Z2cGZVZ1NDYnhaNXhnZ0tmanc4cWhKaldmT2JaZ1l3UUVCZmdzNWladEx0WVgtajg1TE8ya0xMNXFkZlZHMmlYMEFBRlZGQXRqcExZcGxDUTd2THhnZG9mYnUzbTJHUDBUb04?oc=5",
+    "category": "5. 지원 정책",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "근로·자녀장려금 26만 가구 미신청…내달 1일까지 신청하세요 - 뉴스핌",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5zSG81WEFaQWZiVERvd1hXVjlleWE1U1padndaYWlaUHdqNFVKbnhDNWlOYUZaZ0NYd1pTdUJmUEQtazZodUxWQXpUNUk1bTd5Z3dsbkRyWlVaR211?oc=5",
+    "category": "5. 지원 정책",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "국세청, 근로·자녀장려금 추가 신청받는다 - 브릿지경제",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1fcWZaOFlidlNvREttNnNRMmdqdmprVV9OSnVTQUhFSHgtd2NXNktJQ3hZVVcteU4za0IyaGU5OWV4dVg3M1lFems3TG92aEhWcHhORUozYVdrZw?oc=5",
+    "category": "5. 지원 정책",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "5월에 놓친 근로·자녀장려금, 12월 1일까지 신청해야…26만 가구 대상 - 복지투데이",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGb1dzRWMxNUI2Ql8zRmoycWJBaUtjYTRrYTd0QXF4eVlEUnNtYjJPN0R3WGxQT01xWXN1enVKQlFEUFJDaC1VYnFacWxmVmpaVGp2NFpGT2Z6ZGc1anZ5d1dQZjhVLVVwRkpyNQ?oc=5",
+    "category": "5. 지원 정책",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "“최대 330만 원 지급”…근로장려금, 내달 신청 마감→지급일 언제? - 톱스타뉴스",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1VeG9odHpWWnhoOHFUaGNrelZPMFc3MXgxdk1HQUV5SlppTVM0RzVtTnFBRV9oN3VnOTZMcjRtZGMyZXFqMjFFRzVsWG8zbzBCYk5jM0phejlTZHJVc1dCRlE0YUNaQ1hEUDBPSGg0a0NFQQ?oc=5",
+    "category": "5. 지원 정책",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "지난 5월 근로·자녀장려금 놓쳤다면 내달 1일까지 신청해야 - 경기일보",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5wTG13TWpnU1pvWTg1ZUdxejZOSjRMbHlVdHV1U0hLbW1NT0dOWUFnTHFyUWFqNVJYQzY4a2NNT3d0dWxhQ3hQUlV1aEZpTExoc1d0N0lYdTFydEE?oc=5",
+    "category": "5. 지원 정책",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "알바만 했어도, 지금은 퇴직했어도...5월에 놓친 근로·자녀장려금 12월 1일까지 신청하세요 - 사이드뷰 인터넷신문사",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93SHZNclFIazh5VHp1RjV5MmVYbU9GaGJ2c3NHeE5sZEFjTHJNRHUtR05rR2ZLejNHczhWMDBpSGpiY1hqQ1NndjNRcmVPTWhfeTRLZF9admN1blZ1d09SbFNkQkk3NGZyVDFtYQ?oc=5",
+    "category": "5. 지원 정책",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "근로장려금이 맞벌이·N잡 가구 살림에 더하는 힘 - CBC뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xTDhvQ2doOTZWNzJWR2RwVlZvZ2Radnp3dUlQOG9xdWNkWU1wT2hHMDRDNFNsZGk3dVVTOEtsZlZPa0NBSGY2SExwU1J1R2hUZV8yZ0xybzItamI3U0lFb2ZtVktHRlFu?oc=5",
+    "category": "5. 지원 정책",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "근로·자녀장려금 신청, 12월 1일까지 놓치지 마세요! - 미디어시시비비",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tV2xhSVUtZjY3WlB2NU84TnUzRFRkSExobXpDZ1BmMmpRTGFXeVgxbHlWdGQtVzNqWlVOTnhITk1xR2ctNG16aUdXblR1OXl1dTRTZVQ5X19mMjc5QXlVdWpCdGt6VzliMnJ4NjlRQnlZZw?oc=5",
+    "category": "5. 지원 정책",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "국세청, 근로·자녀장려금 미신청 26만 가구에 안내문 발송…12월 1일 신청 마감 - 여성종합뉴스",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE11SjZacU9KcVBsdmttdmJXTTNVVmVFbjJVTUdLVGVjUXZwYzBFWjN2c3JSOVk0LVotLTVST1lZMHExYWRmOTRheEhFbUp0cjdna3ZKQ3V5RkpRbnpXNzhydkltb2Rtako4bjJFdEExWQ?oc=5",
+    "category": "5. 지원 정책",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "놓친 근로·자녀장려금, 12월 1일까지 신청…내년 1월 지급 예정 - 포커스타임즈",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9YM3RzRFRFLUJDby1mQWtlOE42U3pOZmxWQ0Q2ZUdTTFlEWmxZTFh0SXExb2lodTRyendieE9VX21BYXBoNE9XUEwzd1l6LWFRelJGWTh2VzA?oc=5",
+    "category": "5. 지원 정책",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "[예산소식]저등급 은행 ㎏당 500원 수매장려금 지급 등 - 뉴시스",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41c1dxQVJxaDlyLU1rU245LXZVRzNYbTVveFJNa0M1Y2phR082OGc0ckVfY1l4ZVFGXzRlenY1UXBZaktVR1Y2VXdGMFNaRlZPcnFCS3lpX0lVUy02ZzAwc9IBeEFVX3lxTE41NDJja1pRNFRIckhKYmJndG1Ebmd3am8yZ1FkVmEzVWt5UU9ZWnJLa3k0TV94NW1RQ2FBenFfVlc4U1VuOUtoUG14OVU5UG5hQ1ktOTg4RmJNU1ItVFd4VXhPbEdxbmNtS2Qyc3lINmsya2VIVEkyMQ?oc=5",
+    "category": "5. 지원 정책",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "예산군 저등급 은행 수매장려금 1350만 원 지원 - 충남내포뉴스",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LdTdZSDFlRlBDb3ozb1JWWDdYNzVDQzJ0dVJHRTd5YkN0SlZEeFEzY1czWU1UQ2dRTVlmeUozZ2tnZVlJV0JjcTZjdmYtai1QRlNWNHVWb3lpVDc0YkNyNng0ejdkRHRPT3RlcEtR?oc=5",
+    "category": "5. 지원 정책",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "‘0.001%’ 연년생 겹쌍둥이 출산한 부부, 출산장려금 총 3억 받는다 - 인사이트",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBseVhTaWNBdnhYc2o3UElyLUs1QmJ6cU4xLVg2eURfSjZ3d24waW9iMkM4ZWNER0ZQYml6QXZnbFBGMEVzM1A4U2FYeXpMUQ?oc=5",
+    "category": "5. 지원 정책",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "무신사 'AI 트렌드 큐레이션' 12개 카테고리로 확대 - 뉴스핌",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE94SF9FaTdacTBldDBXNy00S0FnRUhOYUYtTVRRR2JXZ1ViUGRQblJrNzVSQjFlMlBIakEwU1kzam5lMEtIS1BxR3hxcmk2azNQMTVjeFowWDRtTW9W?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "해킹 사태에 아날로그 뜬다…’비밀번호 관리 수첩’ 일본 화제 - 연합뉴스TV",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlOWxnREpEX3dVRVNKSWRTeXF6MlJ1TDQ4Y1c2NXFqVXliSDhMQm9uQTdvdlJrSjNRcGFqNHBKMUF6ZVczdnB3ZUhJQk41Njg0M3A3MFBrQVcwelRUSDgxTDA1TUxkeDA?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "[언중언]100세 시대 트렌드체험 - 강원일보",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9PelA5YjVqR005U01nTVdJWmxRQWlzTjZVRWJvY3JQMzVCQ1ZNdlBmWnNEcHMyTThBTHl3Ym43LWdQbmJPbVItU0ZNRVlDUTc0RUk3M3lBcHU3NnM?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "무신사, 패션·뷰티 12개 부문에 'AI트렌드 큐레이션' 확대 적용 - 연합뉴스 한민족센터",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5KRDVWZE9EMDZJQkNud1dQVWRGeVpRbXV5YXVjNDZESXF1VzBkQXpjMncxRjN5Q1BJNkFQMWhWVEd6d1VTVDBNazVVX3VCa3FOODJhR09VT2FMbTQ5SlMyZWNHVkFsYkxXS0ZEeE5OMFRLTmda?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "“너네 과소비야” 입담 화제…남대문 ‘스카프 아저씨’ 돌연 휴업, 왜 - 미주중앙일보",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5NNUlXcFZndHowS2s0NjAxejdRMXVCci13eFpKQWwtSUtCNDQ5YkFkdFZGdHdVVHpPNTMySmFFSnpEZEtZa1BiWTRhNm01TXVMTmFDSGF3bTJfeWZYa1dMNExR?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "쌍둥이 낳고 이듬해 또 쌍둥이…제천 30대 부부 화제 - 중앙일보",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1NM19LclJUYTNMSURHdW1nWlp1aERUSEtwQUczeTdBN1Z2Z3Q3MUFQTm50eUFCWWxGXzlQWGZrYV9lN3ZucW1DVWxlN2xWM3V4RkFUYVJR?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "2027년 기후·에너지 분야 트렌드를 미리 보다 - 한국경제",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5uQzNMcko4ZnBFTzJ4Vm4tdXc3SWZnUmxUb1JnV0kzSC1CZVh2LURXX0g1NVpNM25JcFlnRnhoa2pZZk5oVWxiUXVMcm9VNmRUNklZa1kwTWVrQQ?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "[AI 트렌드] AI가 알아서 보험 갈아타는 시대, 금융 패러다임이 통째로 바뀐다 - 아웃소싱타임스",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Sa2R3bHdRUXJnQ21RYjhiVGcxYXlXV3pyb29pdWItZjE0REVKOUpmVV9HRDRKNkZlNzFuU0EtZ2ljNUhSd2pLaGZKcVVmM1g0X1J6WmRyN0VTNllKU1JyMlBkZVNTLW83UE5XS1hlUVQwUQ?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "[중국 비즈니스 트렌드&동향] 유니트리는 투자로, BYD는 수출로, 텐센트는 업무 AI로 - 플래텀(Platum)",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9Gd2NHblFudU90d2RZdF9Nb2ZVNHFWd0RiU0JsWXhGdzd3aTJaazJwTVNrQUEzOW5SQ3RqNUJpSzNXdE9DbG85bg?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "내년 식음료 시장은 “소비자가 원하는 결과 중심으로 재편” - 식품음료신문",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5GeU9GUWJKLUtIcV9VaF9CMEVMQ09RNDBRTzJCQ0tLdno3MHRJbHlybVU0b3RJLWRoc1ZseXJVejUzNjVRQUN4VGx3RmtoejEtUHgwZ0Y4bURYWi1oQnJSZDMwSGZISE95ZGt3cVBpSQ?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "[HOT 마켓 트렌드] “빵이 가장 맛있는 순간”…파리바게뜨, 주문 즉시 오븐에 굽는 ‘파바 그릴’ 론칭 - 비즈월드",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TT1pMdUJnRVFYX2Zjb05QODRmRXN4V3NDV3ViOUN2al9XSzlLWVV0ZTlSOEpxUUNfZUIwYVNVVEtGSmdhMkxyUExjaFVVMVByOHR3SV9pWWxXWExlV0l1R3NlZ2lTS0hObGc?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "가까이 짧게, 달라진 한국인 여행 트렌드 [뉴스Q] - www.newsq.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0xYkw3QUN6VDdMb2wyVG9Hd0w5Tk15aUVwMkx2eEhGWE1DUUhjX1h2emcxSnlnbFdlb1k5VDY0M3pZbGE0YXJiRXRRZWFuOWxuLW0zMWVZT0pqN2Y3SmFwd0xCLTB6QzhfbXc?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "화제의 AI 안경 써보니… “영어책 읽고 통역, 눈앞에 지도 띄워” - 서울신문",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4xRlZDOEtMWG1FcnprTGVlVFFZdC12UGl2eXZ5UVJUMlJUTkVzcmpxMEZabWNzUGJ6SmtFMk5LNWUzVUJ1d3Nzc0lrZ0VGS0J5TE52RV9rc3M2NzQ0THZROWl4bzd5WkxrRnhybkcxQndCWmlIQTdKSEx3TQ?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "한국어 배우고 스트레칭도…거제 외국인 근로자 운동교실 마무리 - 거제타임즈",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15aDhRTlV2UzdqRkptbF8zbGNKMV95aFE5dXUxTWFHaHVfMzNJMGZvTU9acXhfSmlBeUk2d3RFT01DYUc5TzhWN1JfWFFCYUd3SDFvck5TWDJpTHBpTU12RTVfWElhWVNPSEJFamVnUzY?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "[유아동브랜드트렌드] 키즈워치폰 우들, 알뜰폰 ‘우들 모바일’ 출시…통신사업 본격 진출 外 - 베이비뉴스",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fOGpESlI0dGZxQk8xTnVsSUQ5YkNPTHdhdWdpQjJLdEFSTlNKWm5DdEpqUktfbDE5a3F1RjhGaVhaSWxpTS1IUnZnTUpJLTM2a2xtZXlNZzBTZjVGSndCZThqVWhsMVNiUTFCdQ?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "[제약·바이오트렌드] 유유제약 유원상 대표, 동물의약품 사업화 비전 제시 外 - 베이비뉴스",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE56S0RKT1VIX0xlMUpOQXNzTy1qVWF6UXIzd2pUMUltaTNhYXhyQXV5MGdYd1JieWVmUTJXZXdEQUJEUmZiR2FfN19CRWJSNzJkTTNyX2dpeVZSdk55Wmdlc3V0Qjl1dU82TUw4RA?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "트렌드지, 2026년 세 번째 유럽 투어 성료 - 스포츠경향",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ST3Vxb2YtelFtYUFlbGNtalVpaWNlMDJIdVBMU3VCcXZueWtWaGgzVlR6R0ZqQUx3UENDZGwyQTNOSzdTMnpPc0RkZGthMU1lYldzTWJ4bWtzU25maEHSAWNBVV95cUxQdXNURWVkanI3X3UyYTNKSHdPR0dMUGVpRnlacDgxemNienFhSFVha19jWWpHc2tqdkFOeExkS0NGdnpmNXhvVExDTFBvd2xRX0QyWXZWV0VtMkJGeDUyRmtMX1k?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "요즘 남대문이 난리라며? 화제의 ‘스카프 아저씨’ - JTBC",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIZWFRNk1OMkx0RFMxejFaVUJqbFBWTDYwMDNLUlpvaWJpWXJiVEZfTGJGZDdMZ2IwTV9IeEdIbWJJd0RvZWhRTzVaUkh4OFozTWc?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "김원효, 아내-장모님 싸움 중재 꿀팁 전수 “개그 카드” (말자쇼) - 스포츠경향",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5yMHp5NE45UWNfcVVxMTIyVDBPZk1fSXU0MDJFRTItU2pZSktxRi1zV0Nyc0FTUkh4UUxSSmpJUms1VjZ6YXZMUEtoakRRWjNWWnVxRGRxUU5ic0t6bGfSAWNBVV95cUxOZ1JYbnExT0NqOERfZi02TVZSOVk0WWk0YjZGWWVUeGpPWkw5S3F4NUhXbTExYmZfSnYyM0F4OHZpcjNIYVAtRnlXRWhZMFdzNWM2enlWZEd3QUp0dGtGMkJRTkE?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "성인들의 동심 찾기 여행… 미국 '언어덜팅' 관광 트렌드 부상 - 뉴스트래블",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1USU5wWkhsLW91ejVUMVU3RVF2S1RQU1Z3MlFQRWVpcGxqdU9uVjZibVVESU9WY1dGZ2JwSHFOSnRfeDkzOVBTOHFMSHREWnlIVDFRY3Nkcmh0ODFfLWdCTExwMGxEdw?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "\"AI시대, CEO 발탁 트렌드도 변화\" 대기업들, '관리형 리더' 대신 '실전형 기술인재' 택해 - 뉴시스",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SRFc4RzZPYmpZWm1fVEFPZlRnSXlmeE9VQXFuZjBQOUdkZG4yMWgxeDA3XzZaWDg3NUNaSW5nRUtMTkNmcEFYamJ0Z2ZxQ1RIdzkyV1V0VE1xRWNiTms3NtIBeEFVX3lxTE9vLWx6MURqMWEweTR4RnpSYkN0YlRqU0doeGdIc0ttYXhtWlZxV0JiZ2pZeTRCdzZVaXBHWjRqNVVHbDU1elJkUFZNQmprU3pPX0YybjdodkRZX083T1ZJdHdtU3ZFVUxUOXFYN1h6X0NlMHJNenVhSA?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "‘신인감독 김연경2’ 화제성 1위 - www.bntnews.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9jenhyUjN5X3Q3TFczTmNkaGRvME9HMUljSWRTS2dkOEFqeENpdnFXaG1qTElGQVhGUGVReXMyUUo4SkkzelhQU2JRMEI5SkNmel9GN3VTNFBxMUo5WGFwTGppZmY?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "[요리꿀팁] 눅눅한 김은 '마른 팬'에 데워보세요, 바삭함이 일부 되살아납니다 - 위키트리",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05ZjlHTjFEb25wbF9oM1FTXzh5X2ROU3M0eFM2MnFqZVVPR1RFRi1lMlAzRUM4UEJUT190dk1iWncyQjEzSm1SYUFCYTBoaHBLd2RpM05R?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "“엄마 차 몰았을 뿐인데 61만원 뚝?”…자동차보험료 줄이는 숨은 꿀팁 - 경기일보",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB1d1NsX254R0YwaV9iTGdsZzJkTDZCLU80RVFHeHlTU0RuLWtqWWxMYmZpckpKRURiNms4cXd0UVFFeGtlV1NVTnlWYzFzRDYxTlRMWWVjTGZ3WFE?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "95%가 만족했다…다시 돌아온 화제의 뮤지컬, 이번엔 더 강력해졌다 - http://www.reporternside.com/",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE93NXdtMGFqVFJFNkNST05jOS1MaWdJMEtiSW5IcERPb1pYWEFZZjJ0S01LMW0wSTNuc0dBdi1VNzVwUHowODJuT1Y3VjRWeHZmTlZVVWhsQnE1R0pQVHlhWWJBcUhNclBscjhjMzJZOFhiUQ?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "07화 코리아 자동차 트렌드 2027- 제 9 화, I - 브런치",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9zbjZ3eHFKTXR5RlhabHptNjh2cGhrR1BfeHZfWTBrUjlTZEozdjJGR0x6NXllV0htSWNKcWJjbDg0QUc5NmhlZTZ1MA?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
+    "title": "아빠 화장대가 달라졌다…그루밍族 뉴트렌드 [카드뉴스] - 매일경제",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBxUXgwSjNhOGV0UElWcmtidUlTM0E4d0N6bkROS21PTi1NUUFDQTQ0OVM2R2oySFY0VHMtVW5GV043b09wMEh1UEZzcEtFQTBkVEpEQw?oc=5",
+    "category": "6. 기타 소식",
+    "date": "2026-11-02",
+    "image": ""
+  },
+  {
     "title": "우리은행 해외 지점서 원화 계좌로 국내 투자 - 연합뉴스",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBob2stRk9mM1B4ejFZSTlfczZwNXA0bnM3eElzUEUza0x6UnByWlRMWlFjWmdteEpfS19XSk4xZVpwOW5wRkFpeXFPN3ZGYkRDY1FyaTQ3a2VGa2fSAWBBVV95cUxNVFExSlRDWW5WLU0tdTE3YVZGdUhNM1RLeVQ1V05VTGxMa196MGx1UkpvdkJ4NUFGdEdnSmhNM01ReXcyN3NSNkg3a05QQkNwOUVDWWtOM3ZBbEd0RVl6Z0k?oc=5",
     "category": "3. 고객사 동향",
@@ -28,13 +525,6 @@
     "image": ""
   },
   {
-    "title": "카카오페이, 인터넷뱅크 개인사업자 대출 모두 비교 가능해져 - 한국경제",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84RjZFRHFlV21NSDRqaFU0OGQ4X0VjaXRXeXdKREFjVkxxaC1hNFc4bHVJWU1VT0J6VVpURV82SklIY0h2eUE0R0tqQUVXSVRlQ3Qzc0lveVI3QQ?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-11-02",
-    "image": ""
-  },
-  {
     "title": "하나은행 을지로 본점에 '미디어 파사드'…국내 두 번째로 커 - 뉴스1",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1JM1hjd0Fkdy1WaEtybEZmZk5ZZVRhY0g4OTJMdVJTbnNxX3VnMzlvTUh3T0RvVFg2Rkhfbi16amp3THpoU0NyX2FLekp1Nk5JaklZ?oc=5",
     "category": "3. 고객사 동향",
@@ -58,13 +548,6 @@
   {
     "title": "국내 계좌 없이 원화 투자 … 우리은행, 싱가포르서 첫 송금 성공 - 뉴데일리",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LYnpzWDZUdktHUU15VzdMaHpScmZ5X1hhUUt5UmdqLTBUSFZ6Y0Frck00SWJMd0FnMzlhSHlKZFFHU2R4SUhxcDVXSTJPTFdHNGdiU3hfSEk1M082Z0l3V1BOUEJwMjJFR25GaW9QOHFxUjNHX1Q3VnVtc9IBgAFBVV95cUxNVnBNX3RqRjFIOVVsam1faDlxMFZhckJSMkR0b3VZV1oyX3NTUDlWd3h4RXdyaHMxemlpcGtyU0lHR3BXNVNiSFFNM0hDYlotcWRyUVdqZmg2cHA3SE8tRjd4OU9LY0hqSUJqc0tfYlFzbzhiT2ZwcEpYR1MtRnp0eQ?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-11-02",
-    "image": ""
-  },
-  {
-    "title": "국민연금공단, ‘2026 공공기관 이노비전 포럼’ 사회적가치 경영 대상 '최우수상' 수상 - BBS불교방송",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1EQzNfQ1VJWGllcUFETFQ1WGhyY3FvdTZRZmlUZ2tFN044QUhBU3Rjcmg3YUVpeDdObkxqUGpnX05WY2JHa25UdDc3TUViZmRVZUROc1Y4Y0d6R3FfTFBWWW9uUFNTdjVvclNv?oc=5",
     "category": "3. 고객사 동향",
     "date": "2026-11-02",
     "image": ""
@@ -154,22 +637,8 @@
     "image": ""
   },
   {
-    "title": "5월에 근로·자녀장려금 놓쳤다면 다음 달 1일까지 신청해야 - 연합뉴스",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA1cVdxbXNVYjlYU2ppaVBLRTkxd2R5ZVRmbVJzZW1oSXBIalAzcjh1Z2FMaGxCU05wUnU2THVfem4xSHlQRnhIWXItSjQ0MzF4LWtRcU5UVVc4Mk5pVjI4ZdIBYEFVX3lxTFA1cVdxbXNVYjlYU2ppaVBLRTkxd2R5ZVRmbVJzZW1oSXBIalAzcjh1Z2FMaGxCU05wUnU2THVfem4xSHlQRnhIWXItSjQ0MzF4LWtRcU5UVVc4Mk5pVjI4ZQ?oc=5",
-    "category": "5. 지원 정책",
-    "date": "2026-11-02",
-    "image": ""
-  },
-  {
     "title": "\"5월에 놓친 근로·자녀장려금, 지금 신청하세요\" 국세청, 12월 1일까지 '기한 후 신청' 받아 - 대구MBC",
     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBYbW4wN0xTcEtKY0N3QWc1QjFpWVJNQnJfTWJYa3lBWUdfbnNPN0FtWmdhQ2xCNFlHeGRUUFlBU0xySDU4cHVLRVVLV08?oc=5",
-    "category": "5. 지원 정책",
-    "date": "2026-11-02",
-    "image": ""
-  },
-  {
-    "title": "정기신청 놓친 근로·자녀장려금…12월 1일까지 신청하세요 - 조세금융신문",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5HNmZNSTYyNGxXcTFkT3NoODhxQ2VMNXpBd01QRi1tWGhZSUVfVDg4NjFQWE9RbFZPNGpBSzlOTlVoNDZvdTV0SlpBU2p6dmtSclpQTFVWMnU5SnhLcUYxT004Yw?oc=5",
     "category": "5. 지원 정책",
     "date": "2026-11-02",
     "image": ""
@@ -182,22 +651,8 @@
     "image": ""
   },
   {
-    "title": "국세청, 근로·자녀장려금 미신청 26만 가구에 안내…12월 1일 마감 - 필드뉴스",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5na3c4bWlxcGlSYmxZeFRwQWoxS0pRN0hmTUlqcWI4OW1wNEJsSlJOcjRDcXUzcklEY2V3UmtIOVNBbG9wbmJYRUFvcnc4VlhDSU1SMWNQdi1VZ0M0NnQzQkVQalpNZ2910gFsQVVfeXFMTXlTT0FSUkNQdW9SZkVpWmgtUkZ1Yk1QaTE2dmd1WFJuelc0Uzl3SFpCbFAwdjVWVzAwVV9Ja0VVVnFBa2ozTjhYd0VXTXFWV2ZDSVp0TjI2VllCdmJzVkVJeUxxMm9sNWlISlNQ?oc=5",
-    "category": "5. 지원 정책",
-    "date": "2026-11-02",
-    "image": ""
-  },
-  {
     "title": "“장려금 신청 놓쳤다면 지금”…26만 가구에 마지막 기회 - 애드뉴스인천",
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9CR3Z0aVR1ZXFXQXczc29oZU9WTHU0aEJzWlk0Zi11YnZoV0ozaVVtZ3k2b2Z0bmk4ZG9ldkxWWHZlWHhnd3ppOWd4S2I1ZnJoSjRxYURQX0k2NkFUWS1wTENhR2M3ZExKRDNJ?oc=5",
-    "category": "5. 지원 정책",
-    "date": "2026-11-02",
-    "image": ""
-  },
-  {
-    "title": "근로·자녀 장려금 12월1일까지 기한후 신청을…금액은 95% 지급 - 부산일보",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1iLU1KX094czA5TzZRSU45YTVMU1YwaUs5S2VBU1g5V2xid3QzODJIdE02b0QyV25hbG1WOVQ1ZmcwM2RwNXFxckdmU1VKUWY0SEloVGU4SHRPR1ZiNWNaNHZpdWFTTFdMb1ZxU0xlTmVHOFBK?oc=5",
     "category": "5. 지원 정책",
     "date": "2026-11-02",
     "image": ""
@@ -219,13 +674,6 @@
   {
     "title": "[참고] 근로․자녀장려금 신청요건 및 지급액 - 세정일보",
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9FSFhpdVJfZHBralpxU0Y0N2tvYW55ajhhbGxObUs3UVp6NmVxbzBOVkl3bUFGQm9lWDZncGxYX2FZZ0IwOGpPc0NYT2dVMWphYTI1UHE1TFFQZnRnTVpzSThfVm5pM2JiUkl6dw?oc=5",
-    "category": "5. 지원 정책",
-    "date": "2026-11-02",
-    "image": ""
-  },
-  {
-    "title": "예산군, 저등급 은행 수매장려금 지원 - 전국매일신문",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BNGpudklXbzd5bnViWkw1dFdFQ1IyTHcwWUNnRlNBajk3VnRPSjZpalZzWjQ0MUpGR1RsT2hzMzZkWEk5UGlaeGtadERxTzhSV3VsQUp6SVNkdV85WGFoOERCaTBXT3M1SVotdG5n?oc=5",
     "category": "5. 지원 정책",
     "date": "2026-11-02",
     "image": ""
@@ -1145,650 +1593,6 @@
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1fdkFpbldIekkxUjMybnM1NTdqQ0pvVm9kY2thT1BlWEQtMlZTYTNvaWVTLWhkR2xqenNIbXJwM0lRcDFBbTcwa05jeWFvTER5cWRNTm1lMXhRQ05EREdxVkkyZElQOERnazNR?oc=5",
     "category": "6. 기타 소식",
     "date": "2026-10-31",
-    "image": ""
-  },
-  {
-    "title": "[카드] KS한국고용정보, 타슈켄트 한국 유학·취업 박람회 참가 - 프라임경제",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBtdWFRZGx0WVdvbzhyT19SZG1WeF9PdVZ5LVhVMzF0b0JPajl0aWtUUHJMRUpDYTBzSzFxTllheXo2TS0wZnBPUC1HUFZIdGRvalplaHAxX3c2TzRMcEZSaktCMzlXenpibVJlUVdTREUyUQ?oc=5",
-    "category": "1. 자사 관련",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "효성ITX, 2026 지속가능경영 유공 산업부 장관 표창 - 머니투데이 - 머니투데이",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE85eVFtbFBYSnJZU0FKSlhCNEFDU0w4R3dPUEY2OFZlZC1WUS1DdG9CMUJfZlR5RVhTZjFNQjllYWQzQjA3eWVYWFI5ZndLX0tGUU5Ta2ZLTkdKMExuNUFKUFNGU2NCR19UVDNSRnBR0gFuQVVfeXFMTzl5UW1sUFhKcllTQUpKWEI0QUNTTDhHd09QRjY4VmVkLVZRLUN0b0IxQl9mVHlFWFNmMU1COWVhZDNCMDd5ZVhYUjlmd0tfS0ZRTlNrZktOR0owTG41QUpQU0ZTY0JHX1RUM1JGcFE?oc=5",
-    "category": "2. 경쟁사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "[잠정실적]효성ITX, 올해 3Q 매출액 1379억(+11%) 영업이익 37.5억(-13%) (연결) - ThinkPool",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xbm5QZGZPa05HajJoMEJiZUJkbk1ONWhjOHZkSnRWZFhVVGMwMkE3STdPc3o5dHNaRldHYXdJSGl1VHJveG5oU0MzZGgwX01TNXIwTA?oc=5",
-    "category": "2. 경쟁사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "효성 ITX, 2026년 3분기 영업이익 37억5300만원…전년동기 대비 12.64% 감소 - 디지털투데이",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9OaTgwS1pJZjV3dHA5NV9zcVRjZ3BUZ2tiLWs1T0V2VUg2OEFHS05hOEpGd1BmMzhMSWtSZmdpdkZHcTZDVHVxRDEyeGpjYUxVZ296aV9lUEpGd3gzLWZScnliNHFXNXdOd1lGZE8zV2lCYkdJUVVTbGJDWQ?oc=5",
-    "category": "2. 경쟁사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "효성ITX 3분기 영업이익 38억원…주당 150원 배당 - 비건뉴스",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBSeGY5YW9DLU1UVHItMlloa0hRZHdNaUZkbkhfWXdKSGVuVUpjZ1g1cTF6bVVMVldQN0FoUXRlVzJ0N3M2enpUeWFmRDNCbUtyNnNPVEN4dElPM1JkYVdYUjZIeWl4QQ?oc=5",
-    "category": "2. 경쟁사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "효성ITX, 보통주·우선주 1주당 150원 분기 현금배당 결정 - 디지털투데이",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4zWHhVVUd4VnFPOU5sWThGeTVwNUhNOGlRTkpGTGowY0M3UHc0bUR6V2pwdDYxd19PREk2dzJhdjZENXZubi1sLWZLNmFONGxKZU14TEU1emxKZmtiVldvdTNMUWFWUjhyQzhZUnpIOXV2Z2E0eFM4MXVOSQ?oc=5",
-    "category": "2. 경쟁사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "효성ITX, 3Q 연결 영업이익 37억...전년비 12%↓ - 데이터투자",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBLWExEOTlwRWJTb0ZnZXVpTEdwZS02MDlfajdhVDBRMXc4ZzhDN0cyNWFFc1pCdE5IR21wQUI3UlhPRXl3RWlNOFVoTk9RU2s2aHdUSDZBa1JVQzRjX1JhRUptaUxUZ2RrTzhaMWp3V1R5WU0?oc=5",
-    "category": "2. 경쟁사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "[신한은행] 신한은행, ‘2026 Swith Global CSR 프로젝트'' 행사 개최 - 신한금융그룹",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxOWlWSWxEYXVEcGVHZ0c2QklkSDgwM0hYVVpCeGZsaVFlTV9jZERXTFFpR0tOVTRqamM4WjRQRF92UXhLNEJ6TXlWcTkzeWtDLWdfMXJ5Y3dwQUQ4MDdEVVZ6VkxqYkdI?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "李, 쿠팡 제재 \"법과 방침 따라\"…美 시민단체도 \"韓규제, 차별 아냐\" - 아시아경제",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9YeEdOOEttUGRhLURsaU50WVZPWGdVWE52TVNyR1Ayd05DU180djA4VTZkWGJtZlM1SVJzWWtiM2hfcmJxVFBwVW9VU2lZb0ZjVVdraWZ1eEFkRExvcC1BUQ?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "우리은행, 원화국제결제망 '1호 거래' 성사…원화 국제화 진전 - 연합인포맥스",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1XNHl6Y0JyMThERm1JR3RwelREVlVKQU5qNjJ1ZTBFUkYtU0loOVpuRTRuNjJxUDFBUjdxbDRfcFlGb19YOEhvcm9QVkdUUHI2YnA3YmNxRWtpT0pGNkNUb3ZVczJQQUZoSmlhT2h0NGnSAXRBVV95cUxOeVNHZ2pMQVNEWkVjUElfNnFVdHhoaUVKQnF3YWg2N2VZeHQ2YzZ5Q3FncnJRdDJ5eWtNQndpclpqb0MxM293bUpfMS1XS0FWRWFaM3NoUDZiVWI0TUQ3OXBWRkxzN1lQekdWS0FJTU5naVp4Wg?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "[금융 게시판] Sh수협은행, 금융그룹 전환 추진…KB국민은행·BNK경남은행은 - 라이센스뉴스",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1xUjlhRzlHNlVlN1J1aGdXcFRDOUItWTdKaFk4MmhramVXMTVfT25KZWJpLUh4U0RMa044Qmc0SUxFcGVHeHgxX2hmSzhTa0JyWmpWT3lSLXM2YXBuWW1YYTg4NGNWakplVEVF?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "靑 \"투자·정보협력·쿠팡 등 한미 현안 해소 모색 중‥비자는 별도\" - MBC 뉴스",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9STElBOEItWFRReVppcEQ3OXJPbm9EQ3RQME1vYW5KYjdNZ0NRbFhYMGUyYnRXME02Z3laSldMQkI2eUEyazk2SWlGVkZFWFlXa1E5amFISE5JTmpCM3Y1Z0oxTncwRkI1MXFMbTlzbXRUNFRFYTY1UtIBeEFVX3lxTFBFclNzT0t1SUtleWNIRDhVX0pvVS1kX3RQUzg1VklHZ19ra2dkVlFZT2VyUlpjbEMtS0plRnVBSXczM250VldxZllYSi1NY2piQVdrSzBMclFyVUNLSjRWQlFGQ2xseFpxNVRYLTNsT1prMFQ2cUMtTg?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "김원훈, 퇴사 후 복귀하자 백현진 오열…“뻔뻔한 사람 싫다” (직장인들3) - 스포츠동아",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBEa2Zyc0xNN0Yzc0lVWURPYUJ2aWtLaWhsb2JsRy1mRU1kb1N5bmEwNzhIRGdJdEV6Qjl5WlhFUXhsNXBhUDc4ME5RUUd4RERvT3ROZklwamZwWUtpS3JzT2dSNUxEV0lfRS10YU9n?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "미 소비자단체 “쿠팡 제재는 ‘미국 기업 차별’ 아니다” - 경향신문",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5fZHltV0pRLVI3NDNWclVTQUgtaU15amt6YVY5NUVoTEI0LWRSd0dhcThBXzRvOFZ0NmhkM3U0M20tTE5vSVEwNmk1WWZMdXFOZXVXdGNtWkstd9IBX0FVX3lxTE5tVHA2aHl6Y19seHRsYkpyVDR0X2ExY2oxeEM1Qjk0OFZJRGZSYndEU0p0ZmFMbjVHZU14Tl9MUVYzSk1Hb09MWTFDMTMwUzZlMFdoSUptd0hKelZuVDFN?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "하나은행, 서민금융진흥원에 1000억 출자...저소득 근로자 전용 특화대출 출시 - 인사이드비나",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hVXA5YWRrQ3k5d2E4TWYtQXlhQzlGbHkzbnlLUmMxNXhUS3ctUFdLNHEyUi1mZTJ3aGZTRHZQMmxzbkJ2bzFwbWVydHdRQXBDanFTaXhXc09KZmwzWFJLamxhZE5VS2dGdkhTSQ?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "카카오페이손보, '댕댕런 2026' 공식 후원…펫보험 체험·상담 운영 - 뉴스1",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBnZVV6b2Rlc3FYcmcyYnUzM2FEb3Z2bkMwQVJQaTNsQ2ZhamVjRWFfQ3Q5ZWIxbWVnQkRIVnhnaHNabkVxbmxaSUFKUmpucW4wMGpUSlRlZXhYbF84TGdxeA?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "[쿠팡 과징금] \"과징금 내면 고객 피해\" vs \"현금성 자산만 2.6조\"…쿠팡·개보위 법정 공방 - CBC뉴스",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9LOGNoSU5pWFl3WjFSMFh6c1o3MUxFRUx6MGpodUl3VE1BcmI2ZElyaExMS2xlQWNhMndWWnF2T2FrZzVlY2pHbm1nN1pKRDZuN1h4RUhFUjB0TFl5UDVvS181aVZkUlFU?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "하나은행, 비대면 신규 주담대 3개월 만에 재개 - 서울경제",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5CSzJQUVdLVGtaZUtPUy1zR250aW0yR2QzcWluQTNMS213MldYM3JYVVQxVGxTVV9uUGdHQkYzTmxuSjRYUm9sVWxzV044U19wYWfSAVNBVV95cUxNMmU2WmdCUFZrbDlTVW5ybnR3eG95MzFuUjhDSzF4a0YxOFd1eEt3S0xVMjdZcXNlU3NzNnBHNlFLbXlQakJ2TnJyVmFocGFRUDl0RQ?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "[신한은행] 신한은행, ‘창경궁 오디오 가이드’ 서비스 시행 - 신한금융그룹",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5qb2ZRVU1pTUFIX2t1N29PVlluUGVsd0YzR2U3V1lDYW5xdnU0dVJ6Y1NESGxDSzVTTXR3dFYyUjFDaTBxNTU1ZDhWdHREMDRscnJ5ZDJ3NENxMUQ4YW1PREF0TWhiQ0JK?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "美 유력 시민단체 \"쿠팡, 정부·의회 로비로 韓 압박\"…靑 \"안보 파장 차단\" 강조 - 아시아경제",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9yUzZ6R1hVMlJSTVg2QkpsQUtCUi1QYkVSVlZ3b3hUZVBVcGhxQ2J4eGprb3VuOWJ1LU9yR2pRS2ZOUzhJQ1A3WGF1RVZUQXdRME12RDFGZUJIWWRTMUFaRA?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "[사설] 귀 기울여야 할 미 소비자단체의 쿠팡 비판 - 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Tc2JCd0I3Z3YyOEJvSHo3LWdsUWJiSFRJb1dLbnZEQWRJMk5yRE80Q01Qd3NlTzhDVW8tMnBZUUljdjF0VGt0YWc2WDBNbklJaWRqeFBMdVE1WThOenQwQmRxN0EyNjNSS3c?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "[신한은행] 신한은행, 2026 신한 영 아티스트 페스타 ？올해 마지막 전시 ‘염원’ 개최 - 신한금융그룹",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0zWVlldlR1WVA0QWZLdG1VSDgzUWM0amVZOC1pcEZmWDVIQWk4czZmTDV4Zm1hU3NETjRBSGxTaDFjdWprRjAwaUFvX293aks2b0NSUjZUYmV6R20tcnptTV9DMHBxMXNU?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "[오늘Who] 우리은행 3분기에 분기 순이익 1조 시대 열어, 정진완 실적·내부통제 성과에 연임 힘 실리나 - 비즈니스포스트",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Wa1JvZmNrQW5BQnc2V1B0Zm84ekJCU2dwdjJBVWRjd3ZoY3dUWXJENFYxOG5UNGMwWTd1Q1huRjlXdFpRWmFoX3ZFZGhWUE9OZXZEektPY1pUajA1T1JQUjhTUl90ZEZTMnlINkh6RjBDenc?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "우리은행, 새 광고 모델 ‘리센느’ 발탁…‘우리는 해’ CM송 공개 - 더나은미래",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Ha2RFQlY1ajlycHhUMm8wRmIxZGpWcXlMcVdzOVd6YzQyeEFaWUJ3YW5FdGNOOUI3Rmw3ZW5CM3NJeVAwTS1sT3VkVUo4cjFrdFE?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "쿠팡플레이 ‘직장인들 시즌3’ 종영…김원훈 복귀·박소담 이미지 컨설팅까지 담은 마지막 화 - 톱스타뉴스",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9GMUZmUW16UzZHbGNqd3FPcmh2VU1fckdEVlVCOHVQTndjSDYyNnV6NUJBcHNTLUxqSE0wLUNIV2JpZDVTQmVMRFc2eVVqYkRqcE9LSVd1amtwSTlYeXpPeExNejZlbVJ5cUpKTlAtN045QQ?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "신한은행 ‘리딩뱅크’ 수성…연말 행장 인사 주목 - 디지털데일리",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qamp6V2w4YXRNXzBCRFZfOTBZZmF4WVVEUVR3ZFlVSjZ0RVpwUXJCUVE4cDJXcHFYWjAxXzRiTTVWR2EzRGZodWo0WVU2OVpyeWpsMUNZSWkxVXpZRklJZmYybUQ?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "“배송만으로도 벅찬데......”…전국택배노조, 쿠팡 대리점 ‘불공정 약관’ 공정위 신고 - Daily NTN",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBCaDJrZVhMTE5oWElmQkpIWlN6MVZ1czJLdHVoZnRua0p4MmRucDNIUmVaM0RyT09td3BrVnVHZnprS1R4c1NrSzVFazZiNjlmckp5cDk1OXprYWc3TnRjYk4xanpGOVBhWlE?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "하나은행, 비대면 주담대 다시 문 연다…혼합형 MCI·MCG도 재개 - 서울신문",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9uQW5nQUxneWo0WkdNR3pJZklDcUpGbEljTExKaVJBNjBkS0k5ZVk5b0NFbHUtTTZ2ekRMREhvaVMwSUJxSkpfVHhIYndlTE9XdllxQWFrZWFleWFDeHMxVEJIQXVZRDVZTWJ0RjY0b29DVFpwMzc5NUFR?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "쿠팡CLS, 부산에 420억 투자 AI 스마트 물류센터 구축 - BBS",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9qZE9remE5SHhqNFU3R3FuenNlWlZDanZXRW9kZ1U2S09vZmMtYzlXYTlVU0hjOFZEUU9DYXhad3hUN2t3VGVKM0h5VUUzdXRhOTFUeFAtZW1zYVhtOUxmc0llS1F6ZlBPN1lr?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "\"리튬배터리 열폭주\"...쿠팡물류센터 화재 수사 종료 - YTN 사이언스",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjRrWFpBYzRyLUhCUHFORzd4T2RJMVp1YU1qcnVKbEVKVDZHU291djJnV25JQjZHeWxyTEVraldtalVqRk1hUXJScW1ZODY1MTlqVl9scVJqaThGZDNqTzVHekxNV1BYdXpSNUVYQnl6NmpianlIZXRvT0s1bVBvemh3My1tdFFVMW9DQQ?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "내무부 장관에게 국가 임금 위원회 위원장 임명 제안 - Laodong.vn",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZHpkNGRlam02WlJPSEFJUXlhcGQ1MFFNZkdlX25pUDZLQ2hJY0dqdDlaRzJRQ0V6cm9WN3FnaWU5SnJUdUw1ci0zUktwRnE1ZFdxLVhBTm1mOEt4TWJFOEloYWtaZFRvdzdibDF2dTZTTE1iWHZlMHYwUDVWM3pRVlN3Y3JnWWdMLVp4SDhha19Ec2hIRmtqVFpNWWZjYVlPWENXRzFYbzVMdmY2UmRXMmdBcmdzbF9xVWl4d0Zn?oc=5",
-    "category": "4. 관련 법 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "옥천군 화장장려금 지원 중단…군의회 지적에 군도 '화답' - 뉴시스",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rQ2RuMV9kS3hIVmN4WHZfS1llV2x3ME5QOVA0Z1piN2NjYk9DaTNmUzcxUm1GYmp3UHB1VUZxTTg2NzJVRE5aR013MWU3YURVd0txZkVZcGJaNGJfR1c0V9IBeEFVX3lxTE1PeDJ5NGQ0V0pBUUV1WHdTa0FaRFJaZzlwb1VPQ3BwRzQydmNYZGtOMmpaS2t4Z3FtcmFGejE2UkI0eDJYU3lJYktNNkV5SkU0ZXl0bzdPWGhhQVpvT1E1VlRuNU5xQk9na2h3Z2VOcDZvclgtQzBWZw?oc=5",
-    "category": "5. 지원 정책",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "[싱글족의 알쓸신잡] “더 늦기 전에 신청”...1인 가구의 연말 점검 체크리스트 - 시사캐스트",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CN2NMcUdkVW1WNjI0ZEZTRDBBWGVGMEtUVzRacU9PN2JRLWVYVlM5MW4tWDJsYmdUTkpjVG5nTjFqY2NUbjRhdzBRMnJtRHdVaDZmczRoVEx1WkZGV1FzYkxMM3dZVmpZ?oc=5",
-    "category": "5. 지원 정책",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "중국판 ’붕은우’ 덮밥 가게 화제…하루 130인분 ’불티’ - 연합뉴스TV",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jaDRDTUhHV2hvQUxCUkRLQnhSZzdpSjZTMUdUY3NjYWFhMWUtYjkzMGlieDVZanluWUJzelZNalBuQ2pVNV9Ta1NIUXQ0N0NJNXBiakU2MkZ2ODNNcVlPTXFoZnBQUmc?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "길게 말고 짧게, 유명한 곳보다 내 취향…여행 트렌드 ‘언팩 ’27’ - 뉴시스",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9YdzA3aGxZVHZnYmpJbHB4QWpPdjhadU9HNWtURGxraU0zLWR5TG4ya1dIQjNMZl80dGE1d29Fc083LVNOVmhlMENON2h6SWpMNmJ6S3lBT2RacVhxSnU1X9IBeEFVX3lxTE5DYzJtcTMxODVTam5mcDV1a01rcGJpZUpzZy1jUWc0T0NkMmJoYmxZdmxNcTlocWpzNnZJZ2JrTGVzcEVxdktVNE11VWFBRDRCaTJYY0FvcGVrcG51cTd6clV5OFQxMk95eXpEM21zUUNkazJ5aHh1Yw?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "[FI 창간9주년 특집Ⅱ-2027소비트렌드전망] ② 개인의 회복탄력성｜잘 자고 덜 지치고…건강은 ‘하루를 버티는 힘’ - 푸드아이콘",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xdkMyd3dZLVl0a3BhMTFjWWl6SXNLOTFjZXJQOU5fdk9WeVBvZzVJY09oTlY0Y25GcXJZVDFvUWxlMFlRZHJEU1N5MHlIX0pQX3BPY3VsTzJhQ2IxWlVzSWZUSXlTdll0ZnQwag?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "로레알 스킨수티컬즈, 화제의 ‘피티옥스 세럼’에 이어 ‘피티옥스 크림’ 출시 - 스포츠경향",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE85NWdnZ2NxcjNkT2czOHBTNXo5ZFN0eV8teHNpcmJudWd4MnpaeTF2TmxxNDJCbWx1QzNodTdTUlNoeVVCYWxQNmplVWVRTjdOUUZsWXBkQ3Q0c1lMY3fSAWNBVV95cUxPYTR4SFJUdDBjSG5BYmZyU3MzdGxBZS1PTFJvdTdiWkNSa2xOdExwYU81YThiRjBPdWpEMEFuME9RX205RWJoSXlmMmwzM0FydlhTRmFIZVBONXhmY204bDlXYXM?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "[먹어보고서] 한우에는 레드만? 화이트 와인도 괜찮은 선택 - 신아일보",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wNWhyWkgyMk9QMDZLdmxqWnl3NmpvNkFmWUNfSHN6ZnhTTUFDZERfeHlYeW9XejlQYVpSM0NRN3UzMElnc2V0Zl9xNmRmcUNabkFsUjNyRWtMVmU0eVozanJYMC0ya2VsRzZreXVUM1M?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "“살 안 찌는 비결”… 김희애, 과식 다음 날 꼭 지키는 ‘아침 습관’ - 헬스조선",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16UEFGa280dzZQMmdFUHFyQWVaRzhkTnVtb2JyV01oZW9veGRRV2d5YWQwUTAtdFBfZVU0V2lVOVM4RHVDbUdVMVhTSkc4U2Zfc3NMSzdzYld1cjlTSnY5N1RKSzJ0YzlQYi1hb04zUVAzRTdCU0pPRHNqOVZjam8?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "“전 무릎이 없답니다”…日 ‘뚱보 아이돌 오디션’ 참가자 화제 - 동아일보",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBKb29GOGpxUkhqNnIzcXBkQ05hUjE2aUl3S0c4eFpTSWx6aDgtZ0NJSlZyY0duX1pEUlk1TVhQZTI5VWZjaHpULS00RWpJbVF1ajVCQmwxd09RNUhLVDVOeTN4ZVRiRzlVdXY2Z1BzTWNYLVXSAWZBVV95cUxQa3hGbE94Tmt5RC1MaWduQldkRUVnNzRuWlJQak9FVm9HM0RtT3lobmQ5TmZQNEFrVHdBcmdhVzNxcDR2VExTdWdnUUJjTUVoMXNDVkhDbng5ZVVXVmVWeDg2R2xLTWc?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "[이슈의 서재] \"불편할수록 비싸다?\" 책으로 보는 2027년 트렌드 예측 - YTN",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1kNHQyX0hWWjNDdVliMFFYbW55YzVyTVlsMjRqM0pIaVMyOHB2SWwxSHFMWFllOXM1UDlkclgzd3NMTFdraHJha09IYzhPQ19WTzJ1UlNRTnREUmZxQmc?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "[스페셜리포트] 국내 BIPV 전문기업이 제시하는 신제품·신기술 트렌드 - 인더스트리뉴스",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tYXI3YTFxZWhfcnI0Rm1vdDBGRXpvdkgzWDBIWFZLX1Q0RzRyS3ZkSUJiT285U3B5TjZDWXZrZlBERjctZVMtSXFSTzZwdmdNUmVlYUVBRFNHSno2OTVZdkdVQ3VNRkJQRnZaWXBydHJmZw?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "2026 연말 마케팅 트렌드: 크리스마스 프로모션은 언제 시작해야 할까? - 오픈애즈",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9WVU0tbTI0VE9fd2taUlR5VG80QkFqelRQMGthSXJNdWhfMDE4dEtDRV9tS0JzNlR2LU92cWtVN2g1d0FvUFMtSUxaN3VRTzcwVDB5ek5KNnFzUHA0M3BWQ2ZlR0ttNGQ5WDJqeGVB?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "[라이프 트렌드] 중국 도시 관광·사이판 현지 수업 상품 운영 - 라이센스뉴스",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1oZ0l4ZkFyaldLa2l2ZFJvSXZXVTBSX3R6VzlIdUQ1U1JiX3R3V2dPNnVpTklnbkl6X2gteEZ0LXk4UDlBMDlXNzdraXl0dEprUWlTVTBCdXhnSC15UFhGNXFmYkdXcWtvcEZV?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "“AI 아니다”…미니스커트 입고 무대 찢은 132kg 걸그룹 지망생 ‘화제’ - 매일경제",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDTGhHNjdvUEVEcXl4UXlWeWZoTzkwNkd3cmg0cnFSSjItcmdsQjc1d0JDZ1JvOXF0azItMzhWZlBYa2FuTE9STFhJYThIOGJmVXc?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "김백준, KPGA투어 렉서스 마스터즈 신명나는 '춤판' 벌여 화제 - 글로벌이코노믹",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOXzFDbjFTaTZWZHQxYjFwdWVWRE5RR3FuME9yczhSdkgzblRrN3FKTXRVN1ZrRlUyWFhId2FwT1BielBYT205c3gybFE2aTA1ZWZkYkFPVWZOMHUyanFwdTl1cWtRb1gyOVJrSVV5a2tmMFhmZ1FTYnpzMFlzbTc0LTNfNW9pbGwxT0xV?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "핀터레스트 검색량 622% 증가! 올해 가장 인기 있는 단발 6 - Vogue korea",
-    "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxPTzJYbk1wcTRIelpYa01QcWI3S3RiNDQ2MDFrRkRIcTNlZVo4NXp6enRiV3FVSWZnNHdELURUYVBhcUY0OHVIajJzdkgzT0Z1WXppVlljemZqQkNuSTlVUWo3akNMZ2RBX2F0Y29YSEV4QThSbi0tTlFnR0VlcGRYcUx6eFVMVUpDTXZxUWFpNHY0T0hPbDNDTGs2MlYzWkFoNmo4ODZuc0R1aVo3R3QzTEd1cjRCbzU5Y0xla3lBY2JNVEhndFIyWkZKNVFkUkxNRzFTc3l1MlBaSTZvdlJNczM1X0RsRWZuVGRRY1VRVldlZG1MT28wa09oOFlZZmo1dHpVUFVOdDNudzluRmtHcklIanE3LUVPVm1pLS1UdkhDSEpUYXZZc294WjJiSkVHTWpMajhjMXhaXzBnRjIwNU1YeXhSTnRiS09GdGFn?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "키 148cm·몸무게 132kg 일본 여성, 아이돌 도전 화제 - 연합뉴스TV",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1NXzBTa1RRX2pNZFhrSFE4MVZtVVZtcW1XUzJtUDM5VVBuY0dodkNaeVpWT2NHOVBtX0x6YmRiY2dHbHJjd0pCVmxaNFJKaFhsSlA1YXZOY25PX2h5dzEyUzUyYi13YnM?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "남주혁, 쌍꺼풀 수술했나…달라진 눈매 화제 - 뉴시스",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5HQm8yNl83WEFxVWNlcFZBdUw0QXdMTGdoX0I0aS1Cb1NDc0Fyb0NKRm5kXzhJeVlYYmdpM1pVWnFfcXN3MUk1LW1hdkRPUlQxSC11MXM4am1vTkhiRGRBQtIBeEFVX3lxTFBtbWkzVnkydzR5NGVGZkEwUzlnNlFuU25mb2JWTGYwSGQ2OC0yc1AxNm82UHVvMzNVdHVNcTdWM0daOEJwTE9GRUhhc0l4emZrOUFscXgwYUM5Q3pvdzA0blBoWGJYZEhyMGwtTjBrWFctdV9kRFNtUQ?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "특허 서류 놓치지 않는 꿀팁! 주소 자동 변경 서비스 - 대한민국 정책브리핑",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCREVNWjRaQUVLMGtMRlNDSnE5NHhJWXVaYURRU1NCYVMtbE1zMzVKVzUxSlhYSmJkRktMTHdnajY1WERDdmY1Y0hVOHhHZjNVTF9LbFZwT0VVMkZRQXV1WmplYlc?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "‘2026 철강산업 트렌드 포럼’ 11월 10일 개최 - 한국경제",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zV05kRzVMd3UtcmZ4eC1nMTk4cEk1LUtfckkyZUNtMGZIVXZBZUxBNHhQSzYxUDFPY294OEdjaDFLaEhtUy1IaGxocERISE1iWldWQzNIMFlHUQ?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "한국교회 트렌드 2027: 한국교회에 벌어질 놀라운 변화 10가지 - 얼리어답터뉴스",
-    "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9QTWVRVnhJZlhQTGM1QUtiRWl6bmZkVUt5dU0zb2FwcWVxWGN5cmNwd3lfZUtWRlhDUndGWS1kNWY1ZEU3NVZWYWtB?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "“덜 먹고, 혼자 먹고, 더 건강하게…” 2027년 식생활 트렌드 ‘감식사회(減食社會)ʼ - 식품저널 foodnews",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LaUV5SFFFeUxNYnNnZ0JBTGpTRkRpMzhxQUlYQzlSZXN5V2tXbGdfY2ItLU44VE1VdkhoeGVkb0dtaDloRTl6aGZad1ByVGZEMzdVbTU3eGlyc1FURnBUMjdrSHAzWUdYR0ZGcW1R?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "전남바이오진흥원, '가정간편식(HMR) 트렌드&상품화전략 세미나' 성황리 개최 - 전자신문",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5uUUtFa3pIUWZ0b1g5R2pZMDlMTFpEbDdkSFpjS0ZxSlMtbENjc2d6bEg3M3liNXExMjJ4MzFyZWh0M3Bva0Nlb1h6dXdBUQ?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "[EV 트렌드] 테슬라, 생애 80만km 달릴 로보택시 'LFP 배터리' 탑재 검토 - 다나와 자동차",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE50eEY2c01ycDM2Qk5FSkM5WXlzcTdKaGJIaHA3VjQ0UGc2ODRBOEpCQ3lzZlU4TWtKa3J5U1JWOU5LYWYxaGJLa25qQU1FeWVsbmd6OTdKazE3bDI5R3RPNzFzekpCVGtRRmdaMHhhXzlDdw?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "10월 D램 가격 5.8%↑…낸드는 21개월 연속 상승세 멈춰 - 연합뉴스",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5UVUt3enN3UW9SdGhodjNmYnpHbjBEOVBEeW5zY1pIdE9taGYwYk8zR3g5aFFWOGd6X1pGMFhVZ3dXc3hTZmRVeW00cDIzSDZxSmhTcEs4X05aTknSAWBBVV95cUxOMVdydTc1QldtdkVwSHNVeDc2Sk1RT1VEWWxHdGpMWGQ2UGJCOEo1X3R4TW4zVktpOE96cUJwZDNvS1YyMVJEXzBvVHVtYmlhNy1mN3hSWkoyWFZ1alVrM3Y?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "[2026 여행트렌드⑥] 제주 선호 1위에도 내국인 관광객 감소…국내여행의 가격·교통 경쟁 - 케이트렌디뉴스",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1YRkdtSDNhV3JpMXdGcnVJWDdXcHpxY1dnZ0I5WThnUmRaMDAtblY5ZlJ6b1Y4bTdxLW5ucWVFOEs0N3NrVDRCaWtTaDk3TVB6YTJWaEhhTE1zakUxMlRVdUJJeGlRUVp3V0ktRHRIRQ?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "부커스, 베스트셀러 1위 ‘트렌드 코리아 2027’ 정식 출시 전 미리보기 선공개 - 서울경제TV",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE16TGNXVkV1VlhjcVc4WHp3b2tnLUtHTjMwR1hSYzJ6bjQ4V0M0UUZfOXRmVG51UXowQkpkTWpxcGdCSjRxeUpTZUZ0RFdDbEI2QWdCWEdhYUJ6QndJeGY2Q0thTUM?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "2027년에는 이런 신발이 유행합니다! - Vogue korea",
-    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPcDRicXFMSkZwM3pYblZ6bGVOQXRXdHIyaXNEZWZwM3dsLXpZN0o5NUdyUTA2aC0zdEhzQWtFZVI1SklLVGt5SldBQXdPZlR4NEZqcWF3cmExSGRvcE5jaVByaXhjMUJvOGkwWjZCSGVWSUZqT3NQdGVXMkhwRU9aZXpqbDVsZW4yLU9PSVdUblpNMzh4Qlp4UTN0YWczQlFWT241cmpnYmVYcmJmN3d1ZXZUc25PUlNnUmplZ2FnOTRSRnZxTmxnQXBJQzRqbVp5WFA1dGJfV0hNeEJTVGVYM0pZbFQtQ3hSdTBLREpvZ09iQQ?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "57세 엄정화, 탄탄 몸매 비결..“쉬는 날에도 운동, 스트레칭 필수” (엄정화TV) - OSEN",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9mQU5WSlcyV3VZd1JYVnpBaTdwZ0QtbTVleTVqdzRWX2VITVZFU20ya0YzVmNzNTZjLTFTZVlVaE81Q3p2am5YRHlLRml2Q3ctMWk2Zw?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "[Pocus 심층 분석 기획] 2027 예술 트렌드: AI 이미지 범람과 ‘포스트 AI 저자성’… ‘무엇을 만들까’에서 ‘어떻게 만들까’로 - 얼리어답터뉴스",
-    "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1KbGtIMnQzaS12SDQ5bkR2eWlmdlFfQ3g0TjFpN3JqZmltY25Mc0QtUTZKQ3BQZWFpeXRpOFk2WWYwZ24wUkhwS1NR?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "“이제 힐링보다 웰니스”… 국내 여행 소비 트렌드 달라졌다 - 디지털 인사이트 DIGITAL iNSIGHT",
-    "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPZ0F1UUo3aml3a00wb2NCM0ZrTkJzRFNNX19OMGotVmpGR0J2NEFvTzFOdlhua0hhVFoxYUxwV2M3QUZOVURJcXpidzNZcWJuOWxtd21McFhyNVZxbG1aWFdqQllLcVhMazd4czNEWHFwS3lVa0Z4UmZOZUphRXh3UVZTOENESmx3TEVxaklXRDlCcFlCQXBDNnJuU1l5MENlRGlUT1hOYUpuRmdjdV9vczFIWmxjNFU2ZU5uVmN4UGRjbGRBVjY3X1MzVmVUeWREUjVfVUpuQUdtRGdPR2tsenNRbm95ZVJWcW1rS2JMV2RDaWZhdGxlMzZVS2tfSldZSENKSDlrWEQ1ekRtWDdnTHdfQUdkb29VYUJ3a1lKRzNWT0hZTjBXMjdTa2VLQkxJOEE?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "[차이나 트렌드] 카피캣은 옛말...中 제조, 디자인·기술 앞세워 글로벌 시장 사로잡아 - 서울뉴스통신",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ncVI3bVhTR3VQR2k0amwzek15STRNZGtic2o3WnQxVnR1eHN0WTVJV3pQV2pyWU9PR0NjbUgyRkpvM3VKUWZfNE96djRfVWJ5VEthUVVDaFFEN1RjbERScVd5eHpHRlJURGRj?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "KB국민은행, 박은빈과 함께한 퇴직연금 광고 공개 - 뉴스핌",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB5dHJYOHpsaUJKM0txZTRtdk1uSG1VcmJyVVFtclh5YVh6a0l1ak4ydGVQVlYtZGs3UkVCRHlVUGc4dGdBWEg2Y2ZhbzdMWk10blF1VklKeEFaQ1pD?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "KB국민은행, 지방 청소년 학습공간 넓힌다…전국 '340곳' 조성 - 한국NGO신문",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9iS181WlBlV3prRy1JUXRaZWNUTHRzX0R3OEtTaEE1M3FzcVhOQ2h5X2I4dVBDN0pqSnlHSE9wSHloR0dGWjdncEZaZVdGMUgwcWQ0Nl95aWRtdnlsMGtBaVNNbm0zU0Z5?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "공정위, 쿠팡 할인쿠폰 '정조준' … 경쟁사 영업 방해 의혹 - 세이프타임즈",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5uN215WGdJazRfaTZ0N0JMdGdkb3dVNmEyaUI0LVBKTDVDV3NCNzQzOTVNeUJOdG9zRTQxOEU2cWhyVkNwYktfQ3ljMlRVZXBIaXV4QzRtZVJBMkJVd0pkTGhOUVIzRDFrdzZFTGtJZ9IBc0FVX3lxTE81OTdIRUdYa2NwWXVUQVBPMjlmV0Q0eXlia25HemdPR0M3RmVmYUlpY0NXRi01TVpMMXJqZTFTZFdQR0VVRzZjRFhEZmo1QXRxdEJvYXoyNDFJdzAwRWZjak9JRVZQYU05N281Uk5BTTJRQjQ?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "쿠팡, 6200억 과징금 불복…개보위와 법정 공방 - 스페셜경제",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUM3hTM00zYWN5Uk02Z251QmhBUEh6MEFBT0U0VEUzUmZnQmgzYVNxczdTYkNKWlhMVkc3QUJXaHp1cXU0UGJ5UFhWSWhGb19SeXE1OGlvbkswZ1JIbk1VQ1JnSGNXYkZTUjRZSg?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "우리은행·걸그룹 리센느, 꿈을 향한 도전 응원...'우리는 해' CM송 공개 - 글로벌이코노믹",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSG1YQlg4QVJfRTVRcmpwV1NlM196WHFES1hteXlwTEthUGhrUndPdXotbWJ2U1lpLTFBS1JRamZva0RrR3ZjeXpnZUEzVFd0ajJqSXQ5Um9FbFlYY1M3a1R3WnFyckZuM244U0ZNUlU2QXJVZTR5clFXaHIzWnRpcktjQnM?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "부스러기사랑나눔회, KB국민은행과 함께 아동·청소년 위한 ‘KB청소년센터’ 현판식 개최 - 경상일보",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9WR0RPQVJNY1RlOWgyUHdLSjJwNWExNm1uU0R5MGlaTFlMdkJNTTdrS2JZREJwdXR5RGY1QXhETGRKaTJVSDk3YUhodnlwUko5ZTBkM1RhLTRqN1FFay1hdklZVUNLcDNXSW5kVQ?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "카카오페이손보, 반려견 러닝 행사 펫보험 체험·상담 제공 - 글로벌이코노믹",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVWdzbXNMM0lFZFlHRnl1M2JpUlBOdXZzTkJITlE3MXB4OGVfWUtrNlpTZ29Bd3d2dWJwRmMtLTEtN0labWxuc004TDFiN29oR2hYeThBYm51SmJRYVgyVWVEZGZFX0xuMGw0MXJUNlZNeWU3TGsxLUVxR0dkNTdDdWZmSFM?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "쿠팡로지스틱스서비스, 부산에 AI 물류센터 구축...420억원 투자 - 코리아리포트",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1CXzlXbVRQRjNSUjM1WE1SNWZ2czlPZm10SlJvUWgxZVg5ZzlNcWFLQkRnaDIwS1lXa25XeHZLemU4ZEZFTmRsM1RNanZxdHk3RG55czhJdUtyOTBZTDNzVzBKOFJoTkxIcURPVGF2Q2I?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "시흥시, 1인가구 맞춤형 살림교육 '생활꿀팁바구니' 참여자 모집 - 경기종합뉴스",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VNHpBRVQ3cEpPSlpDdGlSRXpOWVQ0NWVROXhJLUZUYkVkcUVjNWtGOTRHdTFmVjJlMWRNY1o5LS1ZeXptNmFPYWd5SF9KZF90eTBDdHRZSVVWRUstbmsxVk9HQ19wckpzNGw5WGx2dUtQZ2Fa?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "엔비디아, 네이버 주주된다…다음달 10억 달러 투자 - 연합뉴스TV",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlR2lWMGFhY1pEQnpSTmFmQ2hLX29FVHRTanlmTU5GUGRDZmtoZjFfRzhTdHgxUndFYndsbGZVY1NuRTlxaDRPVnRFRF9HSGdsX3pIQUtKV3FQdGVQelJScmpKUmttdDA?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "네이버, 언론사 뉴스편집 다양화…\"심층 기사 노출도 확대\" - 연합인포맥스",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE95M3pUaUNZcVNlLWM0b2YycGR0cjYyRnhxOVYwSkJ3Q3pJbFFLeHdQZzd4NnR5SW5hVHUzSlNaaElBQkdOTEtfVGVzZFBOamUtbkY1ck5KbFZWellCRUNQcUlSWWZfeG5RcnYyeFYyZ2I?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "테크타카, 네이버 N배송 통합반품·패션전문센터 운영 계약 - 아시아경제",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBMWmNlNEhiM2I0dDJqWTJCTWhGMjB1bHlPUXB0a2ZQX1NnZ1N0S3lrOEExRERFOUVhSmtSTTNJVDI5Nm5od3FpYUVrdVM1c3hTV1M3ODBOTU5GNTJkTi1OWA?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "네이버, 성수서 '넾페스타' 개최…50여개 브랜드 참여 - 뉴스핌",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1YaWNhLUhQUUg5Z1lITGZkOHNtUGhTNjlDLUxNS3BPRWV6NlU1VE40eDdRRkZvWVNkVWFZTTN1NzF2Y29XRnU0YlA1UDJ6dmtkR2lBWDNMNXVCTWtD?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "한국타이어, 네이버쇼핑 브랜드데이 개최…타이어 최대 51% 할인 - 뉴스핌",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE93OVlsbWx5elZzMVlVbEhjYUxfRWZURkNLUU5ZUHlSUllWR25zU0RwQmdUMXo1TWVXbGg2NzUxZzNTVW50ajdPcHBtNy1YNU1HMWdGTlVnRFEtb2hF?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "日공포 만화 대가 이토 준지 작품, 네이버웹툰으로 나온다 - 한국경제",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5kS3N6WnhGQ19WUFFRNm4wWUFRa1ZzSjJLa3RCUmZKNm1DTjVNYk4xY1pGZ0tvMzgxb1lNeldyd1k5QTRKbHVfSkNHWVc1VHJubUlJcFAxbUZ6UQ?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "네이버, 멤버십 오프라인으로 넓힌다…성수서 ‘넾페스타’ 개최 - 이데일리",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPV08xNnNzRUtDN1hoVG1HNHFOb290c3hkSEdsWWtRa0otaTFyMkg0d3JGdFVqOFFPSHhhTFlOYWtuWkR5X0M2MGZPSkFnU1BlV0stUEM1dXpGLUg2Ql9RZUl1QlBsZEx4VGg2SmN3aTFPNVF1ZW84amJnNXEtMHU1Zg?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "[속보] 네이버, NVIDIA 대상 1조 4,809억 원 유상증자 납입일 11월 6일 확정 - Investing.com 한국어",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBuRkx1dl9YMTNramxRQVNydlZKSDhrNjdIdTltY0d2bWVtMm1KZC1RV2w1d1NMRU9Pc1BiVGtQR1BfeVhuWWhVd0VtUjV0LUJSY2FGanpHcnZ2MFh1OW01TFh5VXM5TG5nT3lLYjdxRFB5YTQ?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "수영장 넘어 스카이라운지로… 하이엔드 아파트 ‘계급장’ 바뀐다 - 네이버페이 머니스토리",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1sZzc4Nzg1UVgxb3Y5ckxrYnlCOWl2M0w3Sm05dm9zTmg4ZkFRWXpNWmxCTW83RkQ4b0lkckwtU0ZaVXFLc21VTjN2WE9VYzExNy15clo0eEE4U3M?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "“추억의 태권브이가 돌아왔다”…연 5% 적금에 피규어까지 - 마켓인",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9FblNUS215aDkyc2drc0Z5N1AzSDB3X0diYzdOdVhqMUpDTDVGQldKV0VSX05BdVVnTDVIczBPSG1pX3g1d1p0SUkyTTAxUW9jb19tMXpsc0xDSTlmLTQ1SDFsYkp2V1JwNlllc2c4MHRVX0U?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "부스러기사랑나눔회·KB국민은행, 양양 무산지역아동센터 놀이 공간조성 기념식 - 마이데일리",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82RUZKa1NBbUJZSmpxd0lMWmgzVndvUDc3a19jWXdGMFVvaDdDQi1kNHpzbjRfMFQyV2JsclNzY0Nja2xKdFRYTThVUDJFbDFzcWNxOFRxcVhnSWxJNEh2Mw?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "“삼성생명 다이렉트 신규 가입 고객에 네이버페이 포인트” - 글로벌이코노믹",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZ2JHZDJjdm4zMFhHSWhkTUxrWEVCX3dOZUN2cU9DYjdRdWk3VEdDdW5OMDVZOXdPSFNzS3NQbmhRY3VhWW9KNG5Xa1VmeFdHdG9Nb001QmxDYVpGTndCM243N2FyM05NYTU3ejRNSWxxX09STG1HUnpDQTJwdE9pLXA1cU0?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "‘애플페이’ 두드리는 카카오뱅크...결제 영토 확장 노린다 [이슈+] - 에너지경제신문",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE95VWsxRjBtREI4QnpoTnZhcjZOZ2xDcFNWMnYtd3hGMHI4WjBpZmNhemVqVTBqVGU2MUY0TXFST29JYmczMk5ZS0NvdEQzTnZnNXZoQWJkMXVobVk?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "‘고객 피해’ 내세운 쿠팡에 개보위 반박…“모회사 배당하고도 2.6조 남아” - 디지털데일리",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9VV1FxRUxlUmt3UWhjcFRYXzlvVmFGdmdJbXZVSzNKNTVJNXU4ZmhvbnlhNDZmNng0M0M0ME1FR2hjREdFTFIxZDV6U2NYTVkwdXRxSVVERmNVekVycURQQUYxRkM?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "박정환·신진서 최강자 총출동… 신한은행 기선전 2연패 정조준 - https://www.asportstv.kr/",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4tU05SZURKU19wZ1paWFZJOVc2T182TFgxNFhxOHFiWm5TaW5DcGVtZ0NQVWVfeWlLdXJOQTFZZU12NDhqMVY5MUlvNHgwSWxqM0NmRnJWbEFMMzFmV0FnaDhyV0VJN0py?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "KB국민은행, 전문가 2200명 앞세워 퇴직연금 강화… 박은빈 신규 광고 - 글로벌이코노믹",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOX2lnWFlsWjRBUi1GWVVMdVhKNlNjU2R0VE5tOWc5WjN0eWh5RkRHaWZjWTkybzBlcVBKVDNQMm43Z0VQNVFjUmI1VUdfd25ndEt2NklrQ1FYb19EQVZLTl9wT0RmT3R4MlI1ME5zVTdRMkx3TEptd2g3aEg2OVJfRHU2UjE?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "KB국민은행, 박은빈 앞세워 퇴직연금 승부수…\"관리의 시대로\" - 글로벌에픽",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5DTnplbnlpUXQ1eWlfZzdRQmNVZW81b2Q2TEpxYmxydDRONXJvcnVJdHVKaWJReEtJQ25IWmN3eVRzNlFSUmZTYnY1R0w2SC1Yb3cydUdUUFlmbTF5d2VRRkk2UmZpcEYxTGsyMkVLYWFaTzJOalBka05YV0M?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "현재 VTV에서 큰 화제를 모으고 있는 여배우의 인상적인 학력 배경. - Vietnam.vn",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeXI1Z3FDMWpGb0FxQUR2cXpUWU9NVk5RNEoyOGZVdmpLbTI5OWkyc2MtcGFRYlQ0YjIxc20tVmhPRnVkX25BZEtqMEU2SlpmSFNTTXNEeWp6SXJKakd2cjFuVDlSM2VtbW9fVUhua2xLOUxYLTR0R2dOMHVEdGV0S0RBRVNacXJ5dGtVYkNR?oc=5",
-    "category": "6. 기타 소식",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "'독자 AI' 다음 수는?…네이버, 모델 개발 전략 다변화 - 지디넷코리아",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5XRDVxZm1mOVRrcGlzRWxvOEFCcGpNTEwwQjlkTmR0V2lhSldsM0RBWmNYYVhfVXZ1STdkUWhxSVl2NDIwVThESzlBcVozOXNYaEZiTTVB?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
-    "image": ""
-  },
-  {
-    "title": "엔비디아, 네이버에 10억달러 납입 예정…3대 주주로 합류 - 인더스트리뉴스",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBoUkVnU0o0RVkwTUZuMVpyeTVWaVROcUNZVkxEZEQwdWNxd3NTbEtRdGRPczRPa2x2amViNzNaRzRkLUFmNVdHWnVnZUhIX080WjBkbDBHVlo0amluWDZtSlJubEtWemVJcXA1UjVxR0ZrUQ?oc=5",
-    "category": "3. 고객사 동향",
-    "date": "2026-10-30",
     "image": ""
   }
 ]
