@@ -5,28 +5,44 @@ on:
     - cron: '0 23 * * *'  # 한국 시간 매일 아침 8시경에 실행
   workflow_dispatch:
 
+# [보안] 이 워크플로가 쓰는 토큰 권한을 저장소 파일 쓰기로만 제한
+permissions:
+  contents: write
+
+# 동시에 두 번 실행되어 push가 충돌하는 것을 방지
+concurrency:
+  group: bpo-news-crawler
+  cancel-in-progress: false
+
 jobs:
   run-bot:
     runs-on: ubuntu-latest
+    timeout-minutes: 15   # 멈춘 작업이 계속 돌지 않도록 제한
     steps:
       - name: 저장소 코드 가져오기
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
 
       - name: 파이썬 환경 설정
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.9'
+          python-version: '3.12'
+          cache: 'pip'
 
       - name: 라이브러리 설치
         run: pip install -r requirements.txt
 
       - name: 뉴스 수집 파이썬 코드 실행
         run: python main.py
-        
+
       - name: 변경된 뉴스 웹사이트에 자동 업데이트
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add news.json
-          git commit -m "🚀 아침 뉴스 자동 업데이트" || echo "새로운 뉴스가 없습니다."
-          git push
+          if git diff --cached --quiet; then
+            echo "새로운 뉴스가 없습니다."
+          else
+            git commit -m "🚀 아침 뉴스 자동 업데이트"
+            git pull --rebase
+            git push
+          fi
